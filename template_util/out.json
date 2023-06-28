@@ -1,0 +1,9 @@
+{
+    "context": {
+        "action": "on_search",
+        "transaction_id": "a2499925-af35-4643-a84e-8b8688a9e7ca",
+        "message_id": "test_id",
+        "domain": "ONDC:RET10",
+        "timestamp": "2023-05-28T10:09:34.064Z"
+    }
+}

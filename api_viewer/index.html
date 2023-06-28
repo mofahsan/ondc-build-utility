@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ONDC API Contract</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left-section {
+      width: 67%;
+      overflow-y: scroll;
+      padding: 20px;
+    }
+
+    .right-section {
+      width: 33%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .section {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .dropdown {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+
+    .dropdown label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .display-section {
+      margin-top: 20px;
+    }
+  </style>
+  <!-- Swagger UI CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@3.52.0/swagger-ui.css">
+
+</head>
+
+<body>
+  <header>
+    <h1>ONDC API Contract</h1>
+  </header>
+  <main>
+    <section class="left-section">
+      <input type="text" id="swagger_url" placeholder="Swagger_yaml_url">
+      <button onclick="loadSwaggerYaml()">Submit</button>
+      <!-- Swagger UI -->
+      <div id="swagger-ui"></div>
+    </section>
+    <div class="right-section">
+      <section class="section">
+        <!-- <input type="text" id="enum_url" placeholder="enum_yaml_url">
+        <button onclick="loadEnumYaml()">Submit</button>  -->
+        <table id="option-table">
+          <thead>
+            <tr>
+              <th>Schema</th>
+              <th>Field</th>
+              <th>Enum</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>
+              <select id="dropdown1" onchange="loadDropdown2()"></select>
+            </td>
+            <td>
+              <select id="dropdown2" onchange="loadDropdown3()"></select>
+            </td>
+            <td>
+              <select id="dropdown3" onchange="displayTable()"></select>
+            </td>
+          </tr>
+        </table>
+        <table id="result-table"></table>
+        </table>
+      </section>
+      <section class="section">
+        <!-- <input type="text" id="tag_url" placeholder="tag_yaml_url">
+        <button onclick="loadTagYaml()">Submit</button>  -->
+        <table id="option-table">
+          <thead>
+            <tr>
+              <th>Schema</th>
+              <th>TagGroup</th>
+              <th>Tag</th>
+            </tr>
+          </thead>
+          <tr>
+            <td>
+              <select id="tag-schema-dropdown" onchange="loadTagGroup()"></select>
+            </td>
+            <td>
+              <select id="tag-group-dropdown" onchange="loadTag()"></select>
+            </td>
+            <td>
+              <select id="tag-dropdown" onchange="displayTag()"></select>
+            </td>
+          </tr>
+        </table>
+        <table id="tag-group-table"></table>
+        </table>
+        <table id="tag-table"></table>
+        </table>
+      </section>
+    </div>
+  </main>
+  <!-- Swagger UI initialization -->
+  <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist@3.52.0/swagger-ui-bundle.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swagger-ui-dist@3.52.0/swagger-ui-standalone-preset.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+
+
+  <script src="script.js"></script>
+  <script src="script2.js"></script>
+  <script src="script3.js"></script>
+</body>
+
+</html>

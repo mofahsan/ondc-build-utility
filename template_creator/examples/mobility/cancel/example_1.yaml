@@ -1,0 +1,18 @@
+value:
+  context:
+    action: cancel
+    bap_id: '{{bap_id}}'
+    bap_uri: '{{bap_uri}}'
+    bpp_id: '{{bpp_id}}'
+    bpp_uri: '{{bpp_uri}}'
+    city: Bangalore
+    core_version: 0.9.4
+    country: IND
+    domain: nic2004:60221
+    message_id: '{{msg_id}}'
+    timestamp: '{{timestamp}}'
+  message:
+    cancellation_reason_id: '7'
+    descriptor:
+      short_desc: Accidenally booked the ride
+    order_id: b4232ad4-19ee-4c67-9223-a5189b13a741

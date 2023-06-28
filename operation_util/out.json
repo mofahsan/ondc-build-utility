@@ -1,0 +1,9 @@
+{
+    "context": {
+        "action": "on_search",
+        "transaction_id": "f0855e43-f082-4034-9fc6-00bedbe4446f",
+        "message_id": "test_id",
+        "domain": "ONDC:RET10",
+        "timestamp": "2023-05-28T11:41:20.196Z"
+    }
+}

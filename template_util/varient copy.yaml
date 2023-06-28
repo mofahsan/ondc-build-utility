@@ -1,0 +1,69 @@
+template:
+  url: "./varient_template.yaml"
+  dict:
+    txn_id:
+      operation:
+        type: GENERATE_UUID
+    msg_id:
+      operation:
+        type: COPY
+        input:
+          operation:
+            type: READ
+            input:
+              value: "request.context.message_id"
+    name: Shreyansh
+    s_desc: Farm House Short Desciption
+    l_desc: Farm House Loooooooooong Description
+    symbol_url: https://sellerNP.com/images/i1.png 
+    image_url: https://sellerNP.com/images/i1.png
+    price: 269
+    veg: yes
+    name_c1: New Hand Tossed 	
+    price_c1: 0	
+    veg_c1: yes
+    name_c2: 100% Wheat Thin Crust 	
+    price_c2: 0	
+    veg_c2: yes
+    name_c3: Regular	
+    price_c3: 0	
+    veg_c3: yes
+    name_c4: Regular	
+    price_c4: 45	
+    veg_c4: yes
+    name_c5: Medium	
+    price_c5: 210	
+    veg_c5: yes
+    name_c6: Medium	
+    price_c6: 275	
+    veg_c6: yes
+    name_c7: Large	
+    price_c7: 450	
+    veg_c7: yes
+    name_c8: Grilled Mushrooms	
+    price_c8: 35	
+    veg_c8: yes
+    name_c9: Fresh Tomato 	
+    price_c9: 35	
+    veg_c9: yes
+    name_c10: Pepper Barbeque Chicken	
+    price_c10: 50	
+    non_veg_c10: yes
+    name_c11: Grilled Mushrooms	
+    price_c11: 60	
+    veg_c11: yes
+    name_c12: Fresh Tomato 	
+    price_c12: 60	
+    veg_c12: yes	
+    name_c13: Pepper Barbeque Chicken	
+    price_c13: 75	
+    non_veg_c13: yes
+    name_c14: Grilled Mushrooms	
+    price_c14: 80	
+    veg_c14: yes	
+    name_c15: Fresh Tomato 	
+    price_c15: 80	
+    veg_c15: yes 
+    name_c16: Pepper Barbeque Chicken	
+    price_c16: 95	
+    non_veg_c16: yes

@@ -1,0 +1,6 @@
+context:
+  action: on_search
+  transaction_id: {{txn_id}}
+  message_id: {{msg_id}}
+  domain: {{domain}}
+  timestamp: {{tmpstp}}

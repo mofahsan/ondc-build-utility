@@ -1,0 +1,28 @@
+const {GenerateUuidOperation, ReadOperation, GenerateTmpstmpOperation} = require("./Operations.js")
+const {Input, Output} = require("./Interface.js")
+function evaluateOpretion(context, op) {
+    var opt = __getOperation(context, op.type)
+    if(op["input"]){
+        opt.input = __evaluateInput(context, op["input"])
+    }
+    console.log(opt)
+    return opt.getOutput().getValue();
+}
+
+function __evaluateInput(context, inputObj) {
+    var input = new Input(context, inputObj);
+    return input;
+}
+
+function __getOperation(context, op){
+    switch(op){
+        case "GENERATE_UUID":
+            return new GenerateUuidOperation(context)
+        case "READ":
+            return new ReadOperation(context)
+        case "GENERATE_TIMESTAMP":
+            return new GenerateTmpstmpOperation(context)
+    }
+}
+
+module.exports={evaluateOpretion}

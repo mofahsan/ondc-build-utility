@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YAML Viewer</title>
+  <style>
+    .container {
+      display: flex;
+    }
+
+    .steps-panel {
+      width: 15%;
+      display: flex;
+      flex-direction: column;
+      background-color: #f1f1f1;
+    }
+
+    .steps-panel ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .steps-panel li {
+      margin-bottom: 5px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+
+    .steps-panel li.active {
+      font-weight: bold;
+    }
+
+    .content-panel {
+      width: 70%;
+      overflow-y: scroll;
+      padding: 10px;
+      background-color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <table>
+      <tr>
+        <td><b>Load By Url</b></td>
+        <td>
+          <input type="text" id="swagger_url" placeholder="Swagger_yaml_url">
+          <button onclick="loadFlowURI()">Submit</button>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Load By Local File</b></td>
+        <td>
+          <input type="file" id="file-input" />
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="container">
+    <div class="steps-panel">
+      <h2>Flows:</h2>
+      <ul id="flows-list"></ul>
+    </div>
+    <div class="steps-panel">
+      <h2 id="flow-summary"></h2>
+      <p id="flow-description"></p>
+      <h3>Steps:</h2>
+      <ul id="steps-list"></ul>
+    </div>
+    <div class="content-panel">
+      <h2 id="step-summary"></h2>
+      <p id="step-description"></p>
+      <h2>Example:</h2>
+      <pre id="yaml-content"></pre>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script src="script1.js" ></script>
+</body>
+</html>

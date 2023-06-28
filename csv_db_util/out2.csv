@@ -1,0 +1,3274 @@
+key,value
+--adilabad,8732
+--agra,562
+--ahmedabad,79
+--ahmednagar,241
+--aizawl,389
+--ajmer,145
+--akola,724
+--alappuzha,477
+--aligarh,571
+--alirajpur,7394
+--almora,5962
+--alwar,144
+--ambala,171
+--ambedkar nagar,5271
+--amethi,5368
+--amravati,721
+--amreli,2792
+--amritsar,183
+--anand,2692
+--anantapur,8554
+--anantnag,1932
+--anjaw,3804
+--anugul,6764
+--anuppur,7659
+--araria,6453
+--ariyalur,4329
+--arwal,6337
+--ashok nagar,7543
+--auraiya,5683
+--aurangabad,6186:240
+--azamgarh,5462
+--bagalkot,8354
+--bageshwar,5963
+--bagpat,121
+--bahraich,5252
+--baksa,3627
+--balaghat,7632
+--balangir,6652
+--baleswar,6782
+--ballia,5498
+--balrampur,5263
+--banas kantha,2742
+--banda,5192
+--bandipora,1957
+--bangalore rural,80
+--bangalore urban,80
+--banka,6424
+--bankura,3242
+--banswara,2962
+--barabanki,524
+--baramulla,1952
+--baran,7453
+--bardhaman,342
+--bareilly,581
+--bargarh,6646
+--barmer,2982
+--barnala,1679
+--barpeta,3665
+--barwani,7290
+--bastar,7782
+--basti,5542
+--bathinda,164
+--beed,2442
+--begusarai,6243
+--belgaum,831
+--bellary,8392
+--betul,7141
+--bhadrak,6784
+--bhagalpur,641
+--bhandara,7184
+--bharatpur,5644
+--bharuch,2642
+--bhavnagar,278
+--bhilwara,1482
+--bhind,7543
+--bhiwani,1664
+--bhojpur,6182
+--bhopal,755
+--bidar,8482
+--bijapur,7853:8352
+--bijnor,1342
+--bikaner,151
+--bilaspur,7752:1978
+--birbhum,3462
+--bishnupur,3879
+--bokaro,6549
+--bongaigaon,3664
+--boudh,6841
+--budaun,5832
+--budgam,1951
+--bulandshahr,5732
+--buldana,7232
+--bundi,747
+--burhanpur,7325
+--buxar,6183
+--cachar,3842
+--central delhi,11
+--chamba,1899
+--chamoli,1372
+--champawat,5965
+--champhai,3831
+--chamrajnagar,8226
+--chandauli,5412
+--chandel,3872
+--chandrapur,7172
+--changlang,3808
+--chatra,6541
+--chennai,44
+--chhatarpur,7682
+--chhindwara,7162
+--chickmagalur,8262
+--chirang,3664
+--chitradurga,8194
+--chitrakoot,5198
+--chittoor,8572
+--chittorgarh,1472
+--churachandpur,3874
+--churu,1562
+--coimbatore,422
+--cooch behar,3582
+--cuddalore,4122
+--cuttack,671
+--dakshin kannada,824
+--damoh,7812
+--dangs,2631
+--dantewada,7856
+--darbhanga,6272
+--darjeeling,354
+--darrang,3713
+--datia,7522
+--dausa,1427
+--davangere,8192
+--dehradun,135
+--deogarh,6641
+--deoghar,6432
+--deoria,5568
+--dewas,7272
+--dhalai,3826
+--dhamtari,7722
+--dhanbad,326
+--dhar,7292
+--dharmapuri,4342
+--dharwad,836
+--dhemaji,3753
+--dhenkanal,6762
+--dholpur,5642
+--dhubri,3662
+--dhule,2562
+--dibang valley,3801
+--dibrugarh,373
+--dimapur,3862
+--dindigul,451
+--dindori,7644
+--doda,1996
+--dohad,2673
+--dumka,6434
+--dungarpur,2964
+--durg,788
+--east champaran (motihari),6252
+--east delhi,11
+--east garo hills,3658
+--east godavari,884
+--east kameng,3787
+--east khasi hills,364
+--east medinipur,3228
+--east siang,368
+--east singhbhum,6585
+--ernakulam,484
+--erode,424
+--etah,5742
+--etawah,5688
+--faizabad,5278
+--faridabad,129
+--faridkot,1639
+--farrukhabad,5692
+--fatehabad,1667
+--fatehgarh sahib,1763
+--fatehpur,5180
+--ferozepur,1632
+--firozabad,5612
+--gadag,8372
+--gadchiroli,7132
+--gajapati,6815
+--gandhinagar,79
+--ganjam,6811
+--garhwa,6561
+--gautam buddha nagar,120
+--gaya,631
+--ghaziabad,120
+--ghazipur,548
+--giridih,6532
+--goalpara,3663
+--godda,6422
+--golaghat,3774
+--gonda,5262
+--gondia,7182
+--gopalganj,6156
+--gorakhpur,551
+--gulbarga,8472
+--gumla,6524
+--guna,7542
+--guntur,563
+--gurdaspur,1874
+--gurugram,124
+--gwalior,751
+--hailakandi,3844
+--hamirpur,1972:5282
+--hanumangarh,1552
+--harda,7577
+--hardoi,5852
+--haridwar,1334
+--hassan,8172
+--hathras,5722
+--haveri,8375
+--hazaribag,6546
+--hingoli,2456
+--hisar,1662
+--hooghly,33
+--hoshangabad,7574
+--hoshiarpur,1882
+--howrah,33
+--hyderabad,40
+--idukki,4862
+--imphal east,385
+--imphal west,385
+--indore,731
+--jabalpur,761
+--jagatsinghapur,6724
+--jaintia hills,3652
+--jaipur,141
+--jaisalmer,2992
+--jajpur,6728
+--jalandhar,181
+--jalaun,5162
+--jalgoan,257
+--jalna,2482
+--jalor,2973
+--jalpaiguri,3561
+--jammu,191
+--jamnagar,288
+--jamtara,6433
+--jamui,6345
+--janjgir-champa,7817
+--jashpur,7763
+--jaunpur,5452
+--jehanabad,6114
+--jhabua,7392
+--jhajjar,1251
+--jhalawar,7432
+--jhansi,517
+--jharsuguda,6645
+--jhunjhunu,1592
+--jind,1681
+--jodhpur,291
+--jorhat,376
+--junagadh,285
+--jyotiba phule nagar,5922
+--kaimur (bhabua),6189
+--kaithal,1746
+--kalahandi,6670
+--kamrup,3621
+--kamrup metropolitan,361
+--kancheepuram,44
+--kandhamal,6842
+--kangra,1892
+--kanker,7868
+--kannauj,5694
+--kanniyakumari,4652
+--kannur,497
+--kanpur dehat,5111
+--kanpur nagar,512
+--kapurthala,1822
+--karaikal,4368
+--karauli,7464
+--karbi anglong,3671
+--kargil,1985
+--karimganj,3843
+--karimnagar,8722
+--karnal,184
+--karur,4324
+--kasargod,4994
+--kasganj,5744
+--kathua,1922
+--katihar,6452
+--katni,7622
+--kaushambi,5331
+--kawardha,7741
+--kendrapara,6727
+--kendujhar,6766
+--khagaria,6244
+--khammam,8742
+--khandwa,733
+--khargone (west nimar),7282
+--kheda,268
+--khordha,6755
+--kinnaur,1786
+--kiphire,3863
+--kishanganj,6456
+--kishtwar,1995
+--kodagu,8272
+--koderma,6534
+--kohima,370
+--kokrajhar,3661
+--kolar,8152
+--kolasib,3837
+--kolhapur,231
+--kollam,474
+--koppal,8539
+--koraput,6852
+--korba,7759
+--korea,7836
+--kota,744
+--kottayam,481
+--kozhikode,495
+--krishna,8672
+--krishnagiri,4343
+--kulgam,1931
+--kullu,1902
+--kupwara,1955
+--kurnool,8518
+--kurukshetra,1744
+--kurung kumey,3788
+--kushinagar,5564
+--kutch,2832
+--lahaul & spiti,1900
+--lakhimpur,3752
+--lakhimpur kheri,5872
+--lakhisarai,6346
+--lalitpur,5176
+--latehar,6565
+--latur,2382
+--lawngtlai,3835
+--leh,1982
+--lohardaga,6526
+--lohit,3804
+--longleng,3869
+--lower dibang valley,3801
+--lower subansiri,3788
+--lucknow,522
+--ludhiana,161
+--lunglei,372
+--madhepura,6476
+--madhubani,6276
+--madurai,452
+--maharajganj,5523
+--mahasamund,7723
+--mahbubnagar,8542
+--mahe,490
+--mahendragarh,1282
+--mahesana,2762
+--mahoba,5281
+--mainpuri,5672
+--malappuram,483
+--malda,3512
+--malkangiri,6861
+--mamit,389
+--mandi,1905
+--mandla,7642
+--mandsaur,7422
+--mandya,82332
+--mansa,1652
+--marigaon,3678
+--mathura,565
+--mau,547
+--mayurbhanj,6792
+--medak,911
+--meerut,121
+--mewat,1267
+--mirzapur,5442
+--moga,1636
+--mokokchung,369
+--mon,3869
+--moradabad,591
+--morena,7532
+--muktsar,1633
+--mumbai (sub-urban),22
+--mumbai city,22
+--munger,6344
+--murshidabad,3482
+--muzaffarnagar,131
+--muzaffarpur,621
+--mysore,821
+--nabarangapur,6858
+--nadia,3472
+--nagaon,3672
+--nagapattinam,4365
+--nagaur,1582:1582
+--nagpur,712
+--nainital,5942
+--nalanda,6112
+--nalbari,3624
+--nalgonda,8682
+--namakkal,4286
+--nanded,2462
+--nandurbar,2564
+--narayanpur,7781
+--narmada,2640
+--narsinghpur,7792
+--nashik,253
+--navgachia,6421
+--navsari,2637
+--nawada,6324
+--nawanshahr,1823
+--nayagarh,6753
+--neemuch,7423
+--nellore,861
+--new delhi,11
+--nizamabad,8463
+--north 24 parganas,33
+--north cachar hills,3673
+--north delhi,11
+--north dinajpur(uttar),3525
+--north east delhi,11
+--north goa,832
+--north tripura,3824
+--north west delhi,11
+--nuapada,6678
+--osmanabad,2472
+--pakur,6435
+--palakkad,471
+--palamu,6562
+--palghar,2525
+--pali,2932
+--palwal,1275
+--panch mahals,2672
+--panchkula,172
+--panipat,180
+--panna,7732
+--papum pare,360
+--parbhani,2452
+--patan,2766
+--pathanamthitta,468
+--patiala,175
+--patna,612
+--pauri garhwal,1368
+--perambalur,4328
+--peren,3839
+--phek,3865
+--pilibhit,5882
+--pithoragarh,5964
+--pondicherry,413
+--poonch,1965
+--porbandar,286
+--prakasam,8592
+--pratapgarh,1478:5342
+--prayagraj,532
+--pudukottai,4322
+--pulwama,1933
+--pune,20
+--puri,6752
+--purnea,6454
+--purulia,3252
+--raebareli,535
+--raichur,8532
+--raigarh,7762:2141
+--raipur,771
+--raisen,7482
+--rajgarh,7372
+--rajkot,281
+--rajnandgaon,7744
+--rajouri,1962
+--rajsamand,2952
+--ramanathapuram,4567
+--ramban,1998
+--rampur,595
+--ranchi,651
+--rangareddi,40
+--ratlam,7412
+--ratnagiri,2352
+--rayagada,6856
+--reasi,1991
+--rewa,7662
+--rewari,1274
+--ri bhoi,3638
+--rohtak,1262
+--rohtas (sasaram),6184
+--rudraprayag,1364
+--rupnagar,1881
+--sabar kantha,2772
+--sagar,7582
+--saharanpur,132
+--saharsa,6478
+--sahibganj,6436
+--saiha,3835
+--salem,427
+--samastipur,6274
+--samba,1923
+--sambalpur,663
+--sangli,233
+--sangrur,1672
+--sant kabir nagar,5547
+--sant ravidas nagar,5414
+--saran (chapra),6152
+--sas nagar,172
+--satara,2162
+--satna,7672
+--sawai madhopur,7462
+--sehore,7562
+--senapati,3871
+--seoni,7692
+--seraikela,6597
+--serchhip,3838
+--shahdol,7652
+--shahjahanpur,5842
+--shajapur,7364
+--sheikhpura,6341
+--sheohar,6222
+--sheopur,7530
+--shimla,177
+--shimoga,8182
+--shivpuri,7492
+--shravasti,5250
+--siddharthnagar,5544
+--sidhi,7622
+--sikar,1572
+--simdega,6525
+--sindhudurg,2363
+--singrauli,7805
+--sirmaur,1702
+--sirohi,2972
+--sirsa,1666
+--sitamarhi,6226
+--sitapur,5862
+--sivaganga,4575
+--sivasagar,3772
+--siwan,6154
+--solan,1792
+--solapur,217
+--sonbhadra,5444
+--sonipat,130
+--sonitpur,3712
+--south 24 parganas,33
+--south delhi,11
+--south dinajpur (dakshin),3522
+--south garo hills,3639
+--south goa,832
+--south tripura,3821
+--south west delhi,11
+--sri ganganagar,154
+--srikakulam,8942
+--srinagar,194
+--subarnapur,6654
+--sultanpur,5362
+--sundergarh,6622
+--supaul,6473
+--surat,261
+--surendranagar,2752
+--surguja,7774
+--tamenglong,3877
+--tapi,2792
+--tarn taran,1852
+--tawang,3794
+--tehri garhwal,1376
+--thane,22
+--thanjavur,4362
+--the nilgiris,423
+--theni,4546
+--thiruvananthapuram,471
+--thiruvarur,4366
+--thoothukudi,461
+--thouba,3848
+--thrissur,487
+--tikamgarh,7683
+--tinsukia,374
+--tirap,3786
+--tiruchirappalli,431
+--tirunelveli,462
+--tiruppur,421
+--tiruvallur,44
+--tiruvannamalai,4175
+--tonk,1432:1432
+--tuensang,3861
+--tumkur,816
+--udaipur,294
+--udalguri,3711
+--udham singh nagar,5944
+--udhampur,1992
+--udupi,8252
+--ujjain,734
+--ukhrul,3870
+--umaria,7653
+--una,1975
+--unnao,515
+--upper siang,3777
+--upper subansiri,3792
+--uttar kannada,8382
+--uttarkashi,1374
+--vadodara,265
+--vaishali (hajipur),6224
+--valsad,2632
+--varanasi,542
+--vellore,416
+--vidisha,7592
+--villupuram,4146
+--virudhunagar,4562
+--visakhapatnam,891
+--vizianagaram,8922
+--warangal,8712
+--wardha,7152
+--washim,7252
+--wayanad,4936
+--west champaran (bettiah),6254
+--west delhi,11
+--west garo hills,3651
+--west godavari,8812
+--west kameng,3782
+--west khasi hills,3654
+--west medinipur (paschim),3222
+--west siang,3783
+--west singhbhum,6582
+--west tripura,3825
+--wokha,3860
+--yamunanagar,1732
+--yanam,884
+--yavatmal,7232
+--ysr district,8562
+--zunheboto,3867
+an-andaman islands,3192
+an-nicobar islands,3193
+ap-achampet,8541
+ap-adilabad,8732
+ap-adoni,8512
+ap-alampur,8502
+ap-allagadda,8519
+ap-alur,8523
+ap-amalapuram,8856
+ap-amangallu,8545
+ap-anakapalle,8924
+ap-anantapur,8554
+ap-andole (jogipet),8450
+ap-araku,8936
+ap-armoor,8463
+ap-asifabad,8733
+ap-aswaraopet,8740
+ap-atmakur,8517:8504:8627
+ap-b.kothakota,8582
+ap-badvel,8569
+ap-banaganapalle,8515
+ap-bandar (machilipatnam),8672
+ap-bangarupalem,8573
+ap-banswada,8466
+ap-bapatla,8643
+ap-bellampalli,8735
+ap-bhadrachalam,8743
+ap-bhainsa,8752
+ap-bheemunipatnam,8933
+ap-bhimadole,8829
+ap-bhimavaram,8816
+ap-bhongir,8685
+ap-bhooragamphad (manuguru),8746
+ap-boath (echoda),8751
+ap-bobbili,8944
+ap-bodhan,8467
+ap-chandoor,8681
+ap-chavitidibbalu,8863
+ap-chejerla,8628
+ap-chepurupalli (garividi),8952
+ap-cherial,8710
+ap-chevella,8417
+ap-chinnor,8737
+ap-chintalapudi,8823
+ap-chintapalle,8937
+ap-chirala,8594
+ap-chittoor,8572
+ap-chodavaram,8934
+ap-cuddapah,8562
+ap-cumbum,8406
+ap-darsi,8407
+ap-devarakonda,8691
+ap-dharmavaram,8559
+ap-dichpalli,8461
+ap-divi (challapalli),8671
+ap-donakonda,8408
+ap-dronachalam,8516
+ap-eluru,8812
+ap-eturnagaram,8717
+ap-gadwal,8546
+ap-gajapathinagaram,8965
+ap-gajwel,8454
+ap-garladinne,8551
+ap-giddalur,8405
+ap-gooty (guntakal),8552
+ap-gudivada,8674
+ap-gudur,8624
+ap-gudur (kodumur),8525
+ap-guntur,863
+ap-hazurnagar,8683
+ap-hindupur,8556
+ap-husnabad,8721
+ap-huzurabad,8727
+ap-hyderabad loc,40
+ap-hyderabadeast (ghatkeswar),8415
+"ap-hyderabadwest 
+(shamshabad)",8413
+ap-ibrahimpatnam,8414
+ap-jaggayyapet,8654
+ap-jagtial,8724
+ap-jammalamadugu,8560
+ap-jangaon,8716
+ap-jangareddygudem,8821
+ap-jannaram (luxittipet),8739
+ap-kadiri,8494
+ap-kaikaluru,8677
+ap-kakinada,884
+ap-kalwakurthy,8549
+ap-kalyandurg,8497
+"ap-kamalapuram 
+(yerraguntala)",8563
+ap-kamareddy,8468
+ap-kambadur,8492
+ap-kanaganapalle,8491
+ap-kandukuru,8598
+ap-kanigiri,8402
+ap-karimnagar,878
+ap-kavali,8626
+ap-khammam,8742
+ap-khanapur (ap),8730
+ap-kodangal,8505
+ap-koduru,8566
+ap-koilkuntla,8510
+ap-kollapur,8501
+ap-kothagudem,8744
+ap-kovvur,8622
+ap-kovvur (nidadavolu),8813
+ap-krosuru,8640
+ap-kuppam,8570
+ap-kurnool,8518
+ap-lakkireddipalli,8567
+ap-madakasira,8493
+ap-madanapalli,8571
+ap-madhira,8749
+ap-madnur,8464
+ap-mahabubbad,8719
+ap-mahabubnagar,8542
+ap-mahadevapur,8720
+ap-makthal,8503
+ap-mancherial,8736
+"ap-mandapeta 
+(ravulapalem)",8855
+ap-mangalagiri,8645
+ap-manthani,8729
+ap-markapur,8596
+ap-marturu,8404
+ap-medak,8452
+ap-medarmetla,8593
+ap-medchal,8418
+ap-metpalli,8725
+ap-miryalguda,8689
+ap-mulug,8715
+ap-mylavaram,8659
+ap-nagarkurnool,8540
+ap-nalgonda,8682
+"ap-nallacheruvu 
+(tanakallu)",8498
+ap-nampalle,8692
+ap-nandigama,8678
+ap-nandikotkur,8513
+ap-nandyal,8514
+ap-narasampet,8718
+ap-narayankhed,8456
+ap-narayanpet,8506
+ap-narsapur,8458
+ap-narsapur (palakole),8814
+ap-narsaraopet,8647
+ap-narsipatnam,8932
+ap-nellore,861
+ap-nidamanur (hillcolony),8680
+ap-nirmal,8734
+ap-nizamabad,8462
+ap-nuguru (cherla),8747
+ap-nuzvidu,8656
+ap-ongole,8592
+ap-outsarangapalle,8753
+ap-paderu,8935
+ap-pakala,8585
+ap-palakonda (rajam),8941
+ap-palmaneru,8579
+ap-palnad (macherala),8642
+ap-pamuru,8490
+ap-pargi,8412
+ap-parkal,8713
+ap-parvathipuram,8963
+ap-pathapatnam (hiramandalam),8946
+ap-pattikonda,8520
+ap-peapalle,8522
+ap-peddapalli,8728
+ap-peddapuram,8852
+ap-penukonda,8557
+ap-piduguralla,8649
+ap-piler,8584
+ap-pithapuram,8869
+ap-podili,8499
+ap-polavaram,8811
+ap-proddatur,8564
+ap-pulivendla,8568
+ap-punganur,8581
+ap-putturu,8577
+ap-rajahmundri,883
+ap-rajampeta,8565
+ap-ramachandrapuram,8857
+ap-ramannapet,8694
+ap-rampachodavaram,8864
+ap-rapur (podalakur),8621
+ap-rayachoti,8561
+ap-rayadurg,8495
+ap-razole,8862
+ap-repalle,8648
+ap-saluru,8964
+ap-sangareddy,8455
+ap-sathupalli,8761
+ap-sattenapalli,8641
+ap-satyavedu,8576
+ap-shadnagar,8548
+ap-siddavattam,8589
+ap-siddipet,8457
+ap-sileru,8938
+ap-sircilla,8723
+ap-sirpurkagaznagar,8738
+ap-sodam,8583
+ap-sompeta,8947
+ap-srikakulam,8942
+ap-srikalahasthi,8578
+ap-srisailam,8524
+"ap-srungavarapukota 
+(kothvls)",8966
+ap-sudhimalla (tekulapalli),8741
+ap-sullurpet,8623
+ap-suryapet,8684
+ap-tadepalligudem,8818
+ap-tadipatri,8558
+ap-tanduru,8411
+ap-tanuku,8819
+ap-tekkali (palasa),8945
+ap-tenali,8644
+ap-thungaturthy,8693
+ap-tirivuru,8673
+ap-tirupathi,877
+ap-tuni,8854
+ap-udaygiri,8620
+ap-ulvapadu,8599
+ap-uravakonda,8496
+ap-utnor,8731
+ap-v.r.puram,8748
+ap-vaimpalli,8588
+ap-vayalpad,8586
+ap-venkatgiri,8625
+ap-venkatgirikota,8587
+ap-vijayawada,866
+ap-vikrabad,8416
+ap-vinjamuru,8629
+ap-vinukonda,8646
+ap-visakhapatnam,891
+ap-vizayanagaram,8922
+ap-vuyyuru,8676
+ap-wanaparthy,8543
+ap-warangal,870
+ap-wardhannapet (ghanapur),8711
+ap-yelamanchili,8931
+ap-yelavaram,8865
+ap-yeleswaram,8868
+ap-yellandu,8745
+ap-yellanuru,8550
+ap-yellareddy,8465
+ap-yerragondapalem,8403
+ap-zahirabad,8451
+as-abhayapuri,3669
+as-baithalangshu,3677
+as-barama,3623
+as-barpeta road,3666
+as-bihupuria,3759
+as-bijni,3668
+as-bilasipara,3667
+as-bokajan,3675
+as-bokakhat,3776
+as-boko,3621
+as-dhakuakhana,3758
+as-dhemaji,3753
+as-dhubri,3662
+as-dibrugarh,373
+as-digboi,3751
+as-diphu,3671
+as-goalpara,3663
+as-gohpur,3715
+as-golaghat,3774
+as-guwahati,361
+as-haflong,3673
+as-hailakandi,3844
+as-hajo,3664
+as-hojai,3674
+as-howraghat,3676
+as-jorhat,376
+as-karimganj,3843
+as-kokrajhar,3661
+as-maibong,3670
+as-majuli,3775
+as-mangaldoi,3713
+as-mariani,3771
+as-moranhat,3754
+as-morigaon,3678
+as-nagaon,3672
+as-nalbari,3624
+as-north lakhimpur,3752
+as-rangapara,3714
+as-sadiya,3756
+as-sibsagar,3772
+as-silchar,3842
+as-tarabarihat,3665
+as-tezpur,3712
+as-tinsukhia,374
+as-udalguri,3711
+as-vdarbondh,3841
+br-adhaura,6180
+br-amarpur,6420
+br-araria,6453
+br-areraj,6258
+br-arrah,6182
+br-arwal,6337
+br-aurangabad,6186
+br-bagaha,6251
+br-bagodar,6557
+br-baharagora,6594
+br-balumath,6568
+br-banka,6424
+br-banmankhi,6467
+br-barachakia,6257
+br-barauni,6279
+br-barh,6132
+br-barhi,6543
+br-barkagaon,6551
+br-barsoi,6451
+br-barwadih,6567
+br-basia,6533
+br-begusarai,6243
+br-benipatti,6271
+br-benipur,6242
+br-bermo,6549
+br-bettiah,6254
+br-bhabhua,6189
+br-bhagalpur,641
+br-bhandaria,6581
+br-bhawanathpur,6563
+br-bidupur,6229
+br-biharsharif,6112
+br-bikram,6135
+br-bikramganj,6185
+br-birpur,6471
+br-bishrampur,6584
+br-bokaro,6542
+br-bolwa,6539
+br-bundu,6530
+br-buxar,6183
+br-chaibasa,6582
+br-chainpur,6586:6535
+br-chakai,6347
+br-chakardharpur,6587
+br-chandil,6591
+br-chapra,6152
+br-chatra,6541
+br-chavparan,6547
+br-dalsinghsarai,6278
+br-daltonganj,6562
+br-danapur,6115
+br-darbhanga,6272
+br-daudnagar,6328
+br-deoghar,6432
+br-dhaka,6250
+br-dhamdaha,6462
+br-dhanbad,326
+br-dumka,6434
+br-dumraon,6323
+br-dumri(isribazar),6558
+br-ekma,6155
+br-forbesganj,6455
+br-garhwa,6561
+br-garu,6569
+br-gaya,631
+br-ghaghra,6523
+br-ghatsila,6585
+br-giridih,6532
+br-godda,6422
+br-gogri,6245
+br-gomia,6544
+br-gopalganj,6156
+br-govindpur,6540
+br-gumla,6524
+br-h.kharagpur,6342
+br-hajipur,6224
+br-hathua,6150
+br-hazaribagh,6546
+br-hilsa,6111
+br-hunterganj,6550
+br-ichak,6548
+br-imamganj,6331
+br-itki,6529
+br-jagarnathpur,6588
+br-jahanabad,6114
+br-jainagar,6246
+br-jamshedpur,657
+br-jamtara,6433
+br-jamui,6345
+br-japla,6566
+br-jhajha,6349
+br-jhajharpur,6273
+br-jharmundi,6431
+br-jhinkpani,6589
+br-jhumaritalaiya,6534
+br-kahalgaon,6429
+br-kathikund,6427
+br-katihar,6452
+br-katoria,6425
+br-khagaria,6244
+br-kharsawa,6583
+br-khunti,6528
+br-kishanganj,6466
+br-kolebira,6527
+br-korha,6457
+br-lakhisarai,6346
+br-latehar,6565
+br-lohardaga,6526
+br-madhepura,6476
+br-madhubani,6276
+br-madhupur,6438
+br-mahagama,6437
+br-maharajganj,6153
+br-maheshpur raj,6423
+br-mahua,6227
+br-mairwa,6157
+br-mallehpur,6348
+br-mandar,6531
+br-mandu,6545
+br-manoharpur,6593
+br-masrakh,6159
+br-mohania,6187
+br-monghyr,6344
+br-motihari,6252
+br-motipur,6223
+br-muri,6522
+br-muzaffarpur,621
+br-nabinagar,6332
+br-nagarutari,6564
+br-nala,6428
+br-narkatiaganj,6253
+br-naugachia,6421
+br-nawada,6324
+br-noamundi,6596
+br-pakribarwan,6325
+br-pakridayal,6259
+br-pakur,6435
+br-palkot,6536
+br-patan,6560
+br-patna,612
+br-phulparas,6277
+br-piro,6181
+br-pupri,6228
+br-purnea,6454
+br-rafiganj,6327
+br-rajauli,6336
+br-rajdhanwar,6554
+br-rajmahal,6426
+br-ramgarh,6553
+br-ramnagar,6256
+br-ranchi,651
+br-raniganj,6461
+br-raxaul,6255
+br-rohtas,6188
+br-rosera,6275
+br-s.bakhtiarpur,6475
+br-saharsa,6478
+br-sahibganj,6436
+br-samastipur,6274
+br-saraikela (adstyapur),6597
+br-sasaram,6184
+br-seikhpura,6341
+br-sheohar,6222
+br-sherghati,6326
+br-sidhawalia,6151
+br-simaria,6559
+br-simdega,6525
+br-singhwara,6247
+br-sitamarhi,6226
+br-siwan,6154
+br-sonepur,6158
+br-supaul,6473
+br-thakurganj,6459
+br-tisri,6556
+br-torpa,6538
+br-triveniganj,6477
+br-udakishanganj,6479
+br-wazirganj,6322
+by-mumbai,22
+by-navi mumbai (turbhe),215
+gj-ahemdabad local,79
+gj-ahwa,2631
+gj-amod,2641
+gj-amreli,2792
+gj-anand,2692
+gj-anjar (gandhidham),2836
+gj-ankleshwar,2646
+gj-babra,2791
+gj-balasinor,2690
+gj-bansada,2630
+gj-bardoli,2622
+gj-bareja,2718
+gj-barwala,2711
+gj-bayad,2779
+gj-bhachav,2837
+gj-bhanvad,2896
+gj-bharuch,2642
+gj-bhavnagar,278
+gj-bhiloda,2771
+gj-bhuj,2832
+gj-billimora,2634
+gj-borsad,2696
+gj-botad,2849
+gj-chanasma,2734
+gj-chhota udaipur,2669
+gj-chotila,2751
+gj-dabhoi,2663
+gj-dahod,2673
+gj-damnagar,2793
+gj-danta,2749
+gj-dasada,2757
+gj-dediapada,2649
+gj-deesa,2744
+gj-dehgam,2716
+gj-deodar,2735
+gj-devgadhbaria,2678
+gj-dhandhuka,2713
+gj-dhanera,2748
+gj-dharampur,2633
+gj-dhari,2797
+gj-dholka,2714
+gj-dhoraji,2824
+gj-dhrangadhra,2754
+gj-dhrol,2897
+gj-fortsongadh,2624
+gj-gadhada,2847
+gj-gandhi nagar,2712
+gj-gariadhar,2843
+gj-godhra,2672
+gj-gogodar,2806
+gj-gondal,2825
+gj-halol,2676
+gj-halvad,2758
+gj-harij,2733
+gj-himatnagar,2772
+gj-idar,2778
+gj-jambusar,2644
+gj-jamjodhpur,2898
+gj-jamkalyanpur,2891
+gj-jamnagar,288
+gj-jasdan,2821
+gj-jetpur,2823
+gj-jhagadia,2645
+gj-jhalod,2679
+gj-jodia,2893
+gj-junagarh,285
+gj-kalawad,2894
+gj-kalol,2764
+gj-kapad wanj,2691
+gj-keshod,2871
+gj-khambat,2698
+gj-khambhalia,2833
+gj-khavda,2803
+gj-kheda,2694
+gj-khedbrahma,2775
+gj-kheralu,2761
+gj-kodinar,2795
+gj-kotdasanghani,2827
+gj-kunkawav,2796
+gj-kutchmandvi,2834
+gj-kutiyana,2804
+gj-lakhpat,2839
+gj-lakhtar,2759
+gj-lalpur,2895
+gj-limbdi,2753
+gj-limkheda,2677
+gj-lunavada,2674
+gj-m.m.mangrol,2629
+gj-mahuva,2844
+gj-malia-hatina,2870
+gj-maliya miyana,2829
+gj-malpur,2773
+gj-manavadar,2874
+gj-mandvi,2623
+gj-mangrol,2878
+gj-mehsana,2762
+gj-miyagam,2666
+gj-modasa,2774
+gj-morvi,2822
+gj-muli,2756
+gj-mundra,2838
+gj-nadiad,268
+gj-nakhatrana,2835
+gj-nalia,2831
+gj-naswadi,2661
+gj-navsari,2637
+gj-nizar,2628
+gj-okha,2892
+gj-paddhari,2820
+gj-padra,2662
+gj-palanpur,2742
+gj-palitana,2848
+gj-patan,2766
+gj-pavijetpur,2664
+gj-porbander,286
+gj-prantij,2770
+gj-radhanpur,2746
+gj-rahpar,2830
+gj-rajkot,281
+gj-rajpipla,2640
+gj-rajula,2794
+gj-ranavav,2801
+gj-retlad,2697
+gj-sanand,2717
+gj-sankheda,2665
+gj-santalpur,2738
+gj-santrampur,2675
+gj-savarkundla,2845
+gj-savli,2667
+gj-sayan,2621
+gj-sayla,2755
+gj-shehra,2670
+gj-sidhpur,2767
+gj-sihor,2846
+gj-sumrasar,2808
+gj-surat,261
+gj-surendranagar,2752
+gj-talaja,2842
+gj-talala,2877
+gj-thara,2747
+gj-tharad,2737
+gj-thasra,2699
+gj-una-diu,2875
+gj-upleta,2826
+gj-vadgam,2739
+gj-vadodara,265
+gj-valia,2643
+gj-vallabhipur,2841
+gj-valod,2625
+gj-valsad,2632
+gj-vanthali,2872
+gj-vapi,260
+gj-vav,2740
+gj-veraval,2876
+gj-vijapur,2763
+gj-viramgam,2715
+gj-visavadar,2873
+gj-visnagar,2765
+gj-vyara,2626
+gj-waghodia,2668
+gj-wankaner,2828
+ha-adampur mandi,1669
+ha-ambala,171
+ha-assandh,1749
+ha-bahadurgarh,1276
+ha-barara,1731
+ha-barwala,1693
+ha-bawal,1284
+ha-bawanikhera,1254
+ha-bhiwani,1664
+ha-chaaharauli,1735
+ha-charkhidadri,1250
+ha-cheeka,1743
+ha-dabwali,1668
+ha-ellenabad,1698
+ha-faridabad,129
+ha-fatehabad,1667
+ha-ferojpur,1268
+ha-gharaunda,1748
+ha-gohana,1263
+ha-gurgaon,124
+ha-hansi,1663
+ha-hissar,1662
+ha-jagadhari,1732
+ha-jatusana,1281
+ha-jhajjar,1251
+ha-jind,1681
+ha-julana,1683
+ha-kaithal,1746
+ha-kalanaur,1258
+ha-kalanwali,1696
+ha-kalka,1733
+ha-karnal,184
+ha-kosli,1259
+ha-kurukshetra,1744
+ha-loharu,1252
+ha-meham,1257
+ha-mohindergarh,1285
+ha-naraingarh,1734
+ha-narnaul,1282
+ha-narwana,1684
+ha-nilokheri,1745
+ha-nuh,1267
+ha-palwal,1275
+ha-panipat,180
+ha-pehowa,1741
+ha-ratia,1697
+ha-rewari,1274
+ha-rohtak,1262
+ha-safidon,1686
+ha-sirsa,1666
+ha-siwani,1255
+ha-sonipat,130
+ha-tohana,1692
+ha-tohsham,1253
+hp-amb,1976
+hp-arki,1796
+hp-banjar,1903
+hp-bharmour,1895
+hp-bilaspur,1978
+hp-chamba,1899
+hp-churah (tissa),1896
+hp-dehra gopipur,1970
+hp-hamirpur,1972
+hp-jogindernagar,1908
+hp-kalpa,1786
+hp-kangra (dharamsala),1892
+hp-kullu,1902
+hp-lahul (keylong),1900
+hp-mandi,1905
+hp-nahan,1702
+hp-nalagarh,1795
+hp-nirmand,1904
+hp-nurpur,1893
+hp-palampur,1894
+hp-pangi (killar),1897
+hp-paonta,1704
+hp-pooh,1785
+hp-rajgarh,1799
+hp-rampur bushahar,1782
+hp-rohru,1781
+hp-shimla,177
+hp-solan,1792
+hp-spiti (kaza),1906
+hp-sundernagar,1907
+hp-theog,1783
+hp-udaipur,1909
+hp-una,1975
+jk-akhnoor,1924
+jk-anantnag,1932
+jk-badgam,1951
+jk-bandipur,1957
+jk-baramulla,1952
+jk-basholi,1921
+jk-bedarwah,1997
+jk-doda,1996
+jk-jammu,191
+jk-kalakot,1964
+jk-kargil,1985
+jk-karnah,1958
+jk-kathua,1922
+jk-kishtwar,1995
+jk-kulgam,1931
+jk-kupwara,1955
+jk-leh,1982
+jk-mahore,1999
+jk-nobra,1980
+jk-nowshera,1960
+jk-nyoma,1981
+jk-pahalgam,1936
+jk-poonch,1965
+jk-pulwama,1933
+jk-rajouri,1962
+jk-ramban,1998
+jk-ramnagar,1990
+jk-reasi,1991
+jk-samba,1923
+jk-sopore,1954
+jk-srinagar,194
+jk-udhampur,1992
+jk-uri,1956
+jk-zanaskar,1983
+kl-adimaly,4864
+kl-adoor,4734
+kl-agathy,4894
+kl-alathur,4922
+kl-alleppey,477
+kl-amini,4891
+kl-androth,4893
+kl-attingal,470
+kl-badagara,496
+kl-bitra,4890
+kl-calicut,495
+kl-cannanore,497
+kl-chetlat,4899
+kl-ernakulam,484
+kl-irinjalakuda,480
+kl-kadamath,4897
+kl-kalpeni,4895
+kl-kalpetta,4936
+kl-kanhangad,4997
+kl-kanjirapally,4828
+kl-karunagapally,476
+kl-kasargode,4994
+kl-kavarathy,4896
+kl-kiltan,4898
+kl-koduvayur,4923
+kl-kottayam,481
+kl-kunnamkulam,4885
+kl-mananthody,4935
+kl-manjeri,483
+kl-mannarghat,4924
+kl-mavelikkara,479
+kl-minicoy,4892
+kl-munnar,4865
+kl-muvattupuzha,485
+kl-nedumandad,4728
+kl-nedumgandam,4868
+kl-nilambur,4931
+kl-palai,4822
+kl-palghat,491
+kl-pathanamthitta,4733
+kl-payyanur,4985
+kl-peermedu,4869
+kl-perinthalmanna,4933
+kl-punalur,475
+kl-quilon,474
+kl-ranni,4735
+kl-shertallai,478
+kl-shoranur,4926
+kl-taliparamba,4982
+kl-tellicherry,490
+kl-thiruvananthapuram,471
+kl-thodupuzha,4862
+kl-tirur,494
+kl-tiruvalla,469
+kl-trichur,487
+kl-uppala,4998
+kl-vadakkanchery,4884
+kl-vaikom,4829
+kt-afzalpur,8470
+kt-ainapur,8339
+kt-aland,8477
+kt-alur,8170
+kt-anekal,8110
+kt-ankola,8388
+kt-arsikere,8174
+kt-athani,8289
+kt-aurad,8485
+kt-bableshwar,8355
+kt-badami,8357
+kt-bagalkot,8354
+kt-bagepalli,8150
+kt-bailhongal,8288
+kt-bangalore,80
+kt-bangarpet,8153
+kt-bantwal,8255
+kt-basavakalyan,8481
+kt-basavanabagewadi,8358
+kt-basavapatna,8180
+kt-belgaum,831
+kt-bellary,8392
+kt-belthangady,8256
+kt-belur,8177
+kt-bhadravati,8282
+kt-bhalki,8484
+kt-bhatkal,8385
+kt-bidar,8482
+kt-bijapur,8352
+kt-biligi,8425
+kt-cannarayapatna,8176
+kt-chadchan,8422
+kt-challakere,8195
+kt-chamrajnagar,8226
+kt-channagiri,8189
+kt-channapatna,8113
+kt-chikkaballapur,8156
+kt-chikkanayakanahalli,8133
+kt-chikkodi,8338
+kt-chikmagalur,8262
+kt-chincholi,8475
+kt-chintamani,8154
+kt-chitradurga,8194
+kt-chittapur,8474
+kt-cowdahalli,8225
+kt-davangere,8192
+kt-deodurga,8531
+kt-devarahippargi,8424
+kt-doddaballapur,8119
+kt-gadag,8372
+kt-gangavathi,8533
+kt-gokak,8332
+kt-gowribidanur,8155
+kt-gubbi,8131
+kt-gulbarga,8472
+kt-gundlupet,8229
+kt-h.b.halli,8397
+kt-h.d.kote,8228
+kt-haliyal,8284
+kt-hangal,8379
+kt-harapanahalli,8398
+kt-hassan,8172
+kt-haveri,8375
+kt-hebri,8253
+kt-hirekerur,8376
+kt-hiriyur,8193
+kt-holalkere,8191
+kt-holenarasipur,8175
+kt-honnali,8188
+kt-honnavar,8387
+kt-hosadurga,8199
+kt-hosakote,8111
+kt-hosanagara,8185
+kt-hospet,8394
+kt-hubli,836
+kt-hukkeri (sankeshwar),8333
+kt-humnabad,8483
+kt-hungund,8351
+kt-hunsagi,8444
+kt-hunsur,8222
+kt-huvinahadagali,8399
+kt-indi,8359
+kt-jagalur,8196
+kt-jamkhandi,8353
+kt-jewargi,8442
+kt-joida,8383
+kt-k.r.nagar,8223
+kt-kadur,8267
+kt-kalghatagi,8370
+kt-kamalapur,8478
+kt-kanakapura,8117
+kt-kargal,8186
+kt-karkala,8258
+kt-karwar,8382
+kt-khanapur,8336
+kt-kolar,8152
+kt-kollegal,8224
+kt-koppa,8265
+kt-koppal,8539
+kt-koratageri,8138
+kt-krishnarajapet,8230
+kt-kudligi,8391
+kt-kumta,8386
+kt-kundapur,8254
+kt-kundgol,8304
+kt-kunigal,8132
+kt-kurugodu,8393
+kt-kustagi,8536
+kt-lingsugur,8537
+kt-madikeri,8272
+kt-madugiri,8137
+kt-malavalli,8231
+kt-malur,8151
+kt-mandya,8232
+kt-mangalore,824
+kt-manvi,8538
+kt-mashal,8471
+kt-molkalmuru,8198
+kt-mudalgi,8334
+kt-muddebihal,8356
+kt-mudhol,8350
+kt-mudigere,8263
+kt-mulbagal,8159
+kt-mundagod,8301
+kt-mundargi,8371
+kt-murugod,8337
+kt-mysore,821
+kt-nagamangala,8234
+kt-nanjangud,8221
+kt-nargund,8377
+kt-narsimharajapur,8266
+kt-navalgund,8380
+kt-nelamangala,8118
+kt-nimburga,8440
+kt-pandavpura,8236
+kt-pavagada,8136
+kt-puttur,8251
+kt-raibag (kudchi),8331
+kt-raichur,8532
+kt-ramdurg,8335
+kt-ranebennur,8373
+kt-ron,8381
+kt-sagar,8183
+kt-sakleshpur,8173
+kt-salkani,8283
+kt-sandur,8395
+kt-saundatti,8330
+kt-savanur,8378
+kt-sedam,8441
+kt-shahapur,8479
+kt-shankarnarayana,8259
+kt-shikaripura,8187
+kt-shimoga,8182
+kt-shirahatti,8487
+kt-shorapur,8443
+kt-siddapur,8389
+kt-sidlaghatta,8158
+kt-sindagi,8488
+kt-sindhanur,8535
+kt-sira,8135
+kt-sirsi,8384
+kt-siruguppa,8396
+kt-somwarpet,8276
+kt-sorab,8184
+kt-srinivasapur,8157
+kt-sullia,8257
+kt-t.narsipur,8227
+kt-tallak,8190
+kt-tarikere,8261
+kt-telgi,8426
+kt-thirthahalli,8181
+kt-tiptur,8134
+kt-tumkur,816
+kt-turuvekere,8139
+kt-udupi,820
+kt-virajpet,8274
+kt-wadi,8476
+kt-yadgiri,8473
+kt-yelburga,8534
+kt-yellapur,8419
+mh-achalpur,7223
+mh-aheri,7133
+mh-ahmednagar,241
+mh-ahmedpur,2381
+mh-ajara,2323
+mh-akkalkot,2181
+mh-akola,724
+mh-akole,2424
+mh-akot,7258
+mh-alibagh,2141
+mh-amagaon,7189
+mh-amalner,2587
+mh-ambad,2483
+mh-ambejogai,2446
+mh-amravati,721
+mh-arjuni-merogaon,7196
+mh-arvi,7157
+mh-ashti,2441
+mh-atpadi,2343
+mh-aurangabad,2432
+mh-ausa,2383
+mh-babhulgaon,7203
+mh-balapur,7257
+mh-baramati,2112
+mh-barshi takli,7255
+mh-barsi,2184
+mh-basmatnagar,2454
+mh-bassein,250
+mh-bhadrawati,7175
+mh-bhamregadh,7134
+mh-bhandara,7184
+mh-bhir,2442
+mh-bhiwandi,2522
+mh-bhiwapur,7106
+mh-bhokar,2467
+mh-bhokardan,2485
+mh-bhoom,2478
+mh-bhor,2113
+mh-bhudargad (gargoti),2599
+mh-bhusawal,2582
+mh-billoli,2465
+mh-brahmapuri,7177
+mh-buldhana,7262
+mh-butibori,7103
+mh-canacona (quepem),8346
+mh-chalisgaon,2589
+mh-chamorshi,7135
+mh-chandgad,2320
+mh-chandrapur,7172
+mh-chandurbazar,7227
+mh-chandurrly,7222
+mh-chanwad,2556
+mh-chhikaldara,7220
+mh-chikhali,7264
+mh-chinchwad,212
+mh-chiplun,2355
+mh-chopda,2586
+mh-chumur,7170
+mh-dahanu,2528
+mh-dapoli,2358
+mh-darwaha,7238
+mh-daryapur,7224
+mh-daund,2117
+mh-degloor,2463
+mh-delhi tanda,2460
+mh-deogad,2364
+mh-deolgaonraja,7261
+mh-deoli,7158
+mh-deori,7199
+mh-desaiganj,7137
+mh-dhadgaon,2595
+mh-dhanora,7138
+mh-dharani,7226
+mh-dhiwadi,2165
+mh-dhule,2562
+mh-digras,7234
+mh-dindori,2557
+mh-edalabad,2583
+mh-erandul,2588
+mh-etapalli,7136
+mh-gadchiroli,7132
+mh-gadhinglaj,2327
+mh-gaganbavada,2326
+mh-gangakhed,2453
+mh-gangapur,2433
+mh-gevrai,2447
+mh-ghatanji,7230
+mh-golegaon,2439
+mh-gond pipri,7171
+mh-gondia,7182
+mh-goregaon,7187
+mh-guhagar,2359
+mh-hadgaon,2468
+"mh-hatkangale 
+(ichalkaranji)",2324
+mh-hinganghat,7153
+mh-hingoli,2456
+mh-hingua,7104
+mh-igatpuri,2553
+mh-indapur,2111
+mh-islampur,2342
+mh-jalgaon,257
+mh-jalgaonjamod,7266
+mh-jalna,2482
+mh-jamkhed,2421
+mh-jamner,2580
+mh-jath,2344
+mh-jawahar,2520
+mh-jintdor,2457
+mh-junnar,2132
+mh-kagal (murgud),2325
+mh-kaij,2445
+mh-kalamb,7201
+mh-kalamnuri,2455
+mh-kallam,2473
+mh-kalmeshwar,7118
+mh-kalwan,2592
+mh-kalyan,251
+mh-kamptee,7109
+mh-kandhar,2466
+mh-kankavali,2367
+mh-kannad,2435
+mh-karad,2164
+mh-karjat,2489:2148
+mh-karmala,2182
+mh-katol,7112
+mh-kavathemankal,2341
+mh-kedgaon,2119
+mh-khadakwasala,230
+mh-khamgaon,7263
+mh-khed,2356
+mh-khopoli,2192
+mh-khultabad,2437
+mh-kinwat,2469
+mh-kolhapur,231
+mh-koparagon,2423
+mh-koregaon,2163
+mh-kudal,2362
+mh-kuhi,7100
+mh-kurkheda,7139
+mh-kusumba,2560
+mh-lakhandur,7181
+mh-langa,2351
+mh-latur,2382
+mh-lonar,7260
+mh-lonavala,2114
+mh-madangad,2350
+mh-madha,2183
+mh-mahabaleswar,2168
+mh-mahad,2145
+mh-mahasala,2149
+mh-mahaswad,2373
+mh-malegaon,2554
+mh-malgaon,7254
+mh-malgund,2357
+mh-malkapur,7267
+mh-malsuras,2185
+mh-malwan,2365
+mh-manchar,2133
+mh-mangalwedha,2188
+mh-mangaon,2140
+mh-mangrulpur,7253
+mh-manjalegaon,2443
+mh-manmad,2591
+mh-maregaon,7236
+mh-margao,8342
+mh-marigaon,7237
+mh-medha,2378
+mh-mekhar,7268
+mh-mohadi,7197
+mh-mohol,2189
+mh-mokhada,2529
+mh-morshi,7228
+mh-mouda,7115
+mh-mukhed,2461
+mh-mul,7174
+mh-murbad,2524
+mh-murtizapur,7256
+mh-murud,2144
+mh-nagbhir,7179
+mh-nagpur,712
+mh-nahavara,2137
+mh-nanded,2462
+mh-nandgaon,7221:2552
+mh-nandnva,7279
+mh-nandurbar,2564
+mh-narkhed,7105
+mh-nasikcity,253
+mh-navapur,2569
+mh-ner,2481
+mh-newasa,2427
+mh-nilanga,2384
+mh-niphad,2550
+mh-omerga,2475
+mh-osmanabad,2472
+mh-pachora,2596
+mh-paithan,2431
+mh-palghar,2525
+mh-pali,2142
+mh-pandharkawada,7235
+mh-pandharpur,2186
+mh-panhala,2328
+mh-panji,832
+mh-paranda,2477
+mh-parbhani,2452
+mh-parner,2488
+mh-parola,2597
+mh-parseoni,7102
+mh-partur,2484
+mh-patan,2372
+mh-pathardi,2428
+mh-pathari,2451
+mh-patoda,2444
+mh-pauni,7185
+mh-peint,2558
+mh-pen,2143
+mh-phaltan,2166
+mh-pimpalner,2561
+mh-pirangut,2139
+mh-poladpur,2191
+mh-ponda,8343
+mh-pune,20
+mh-pusad,7233
+mh-pusegaon,2375
+mh-radhanagar,2321
+mh-rahuri,2426
+mh-rajapur,2353
+mh-rajgurunagar,2135
+mh-rajura,7173
+mh-ralegaon,7202
+mh-ramtek,7114
+mh-ratnagiri,2352
+mh-raver,2584
+mh-risod,7251
+mh-roha,2194
+mh-sakarwadi,2160
+mh-sakoli,7186
+mh-sakri,2568
+mh-salekasa,7180
+mh-samudrapur,7151
+mh-sangamner,2425
+"mh-sanganeshwar 
+(deorukh)",2354
+mh-sangli,233
+mh-sangola,2187
+mh-sanguem,8345
+mh-saoner,7113
+mh-saswad,2115
+mh-satana,2555
+mh-satara,2162
+mh-sawantwadi,2363
+mh-seloo,7155
+mh-shahada,2565
+mh-shahapur,2527
+mh-shahuwadi (malakapur),2329
+mh-shevgaon,2429
+mh-shirala,2345
+mh-shirol (jalsingpur),2322
+mh-shirpur,2563
+mh-shirur,2138
+mh-shirwal,2169
+mh-sholapur,217
+mh-shri rampur,2422
+mh-shrigonda,2487
+mh-shrivardhan,2147
+mh-sillod,2430
+mh-sinderwahi,7178
+mh-sindkheda,2566
+mh-sindkhedaraja,7269
+mh-sinnar,2551
+mh-sironcha,7131
+mh-soyegaon,2438
+mh-surgena,2593
+mh-talasari,2521
+mh-talegaokarangal,7156
+mh-taloda,2567
+mh-tasgaon,2346
+mh-tirora,7198
+mh-tiwasa,7225
+mh-trimbak,2594
+mh-tuljapur,2471
+mh-tumsar,7183
+mh-udgir,2385
+mh-umarkhed,7231
+mh-umrane,2598
+mh-umrer,7116
+mh-urlikanchan,2136
+mh-vaduj,2161
+mh-velhe,2130
+mh-vengurla,2366
+mh-vijapur,2436
+mh-vita,2347
+mh-wada,2526
+mh-wai,2167
+mh-walchandnagar,2118
+mh-wani,7239
+mh-wardha,7152
+mh-warlydwarud,7229
+mh-warora,7176
+mh-washim,7252
+mh-wathar,2371
+mh-yawal,2585
+mh-yeola,2559
+mh-yeotmal,7232
+mp-agar,7362
+mp-ajaigarh,7730
+mp-alirajpur,7394
+mp-alot,7410
+mp-amarpatan,7675
+mp-amarwada,7167
+mp-ambah,7538
+mp-ambikapur,7774
+mp-antagarh,7847
+mp-arang,7720
+mp-arone,7545
+mp-ashoknagar,7543
+mp-ashta,7560
+mp-atner,7144
+mp-babaichichli,7790
+mp-bacheli,7857
+mp-badamalhera,7689
+mp-badarwas,7495
+mp-baderajpur,7849
+mp-badnagar,7367
+mp-badnawar,7295
+mp-badwani,7290
+mp-bagbahera,7707
+mp-bagicha,7769
+mp-bagli,7271
+mp-baihar,7636
+mp-baikunthpur,7836
+mp-balaghat,7632
+mp-baldeogarh,7684
+mp-baldi,7326
+mp-balod,7749
+mp-balodabazar,7727
+mp-balrampur,7831
+mp-bamori,7540
+mp-banda,7583
+mp-bandhavgarh,7653
+mp-bareli,7486
+mp-baroda,7531
+mp-barpalli,7813
+mp-barwaha,7280
+mp-basana,7724
+mp-bastanar,7862
+mp-batkakhapa,7169
+mp-begamganj,7487
+mp-bemetara,7824
+mp-beohari,7650
+mp-berasia,7565
+mp-berchha,7363
+mp-berla,7825
+mp-betul,7141
+mp-bhainsdehi,7143
+mp-bhairongarh,7789
+mp-bhander,7523
+mp-bhanpura,7427
+mp-bhanupratappur,7850
+mp-bharathpur,7835
+mp-bhatapara,7726
+mp-bhikangaon,7288
+mp-bhilaigarh,7729
+mp-bhimpur,7142
+mp-bhind,7534
+mp-bhitarwar,7525
+mp-bhopal,755
+mp-bhopalpatnam,7851
+mp-biaora,7374
+mp-bijadandi,7643
+mp-bijapur,7853
+mp-bijawar,7608
+mp-bijaypur,7528
+mp-bilaspur,7752
+mp-bina,7580
+mp-birsa,7637
+mp-birsinghpur,7655
+mp-bodla,7740
+mp-bokaband,7867
+mp-budhni,7564
+mp-burhanpur,7325
+mp-buxwaha,7609
+mp-chachaura,7546
+mp-chanderi,7547
+mp-chandipara,7818
+mp-chaurai,7166
+mp-chhapara,7691
+mp-chhatarpur,7682
+mp-chhindwara,7162
+mp-chhuriakala,7745
+mp-chicholi,7145
+mp-chingamut,7863
+mp-chingmut,7855
+mp-chitrangi,7806
+mp-chuikhadan,7743
+mp-churhat,7802
+mp-dabhara,7758
+mp-dabra,7524
+mp-dallirajhara,7748
+mp-damoh,7638:7812
+mp-dantewada,7856
+mp-datia,7522
+mp-deobhog,7704
+mp-deori,7586
+mp-deosar,7801
+mp-depalpur,7322
+mp-dewas,7272
+mp-dhamda,7821
+mp-dhamtari,7722
+mp-dhar,7292
+mp-dharamjaigarh,7766
+mp-dharampuri,7294
+mp-dindori,7644
+mp-dongargarh,7823
+mp-durg,788
+mp-durgakondal,7843
+mp-gadarwara,7791
+mp-gairatganj,7481
+mp-ganjbasoda,7594
+mp-gariaband,7706
+mp-garoth,7425
+mp-garpa,7846
+mp-ghansour,7693
+mp-gharghoda,7767
+mp-ghatia,7368
+mp-ghatigaon,7526
+mp-ghorandogri,7146
+mp-ghughari,7647
+mp-gogaon,7287
+mp-gogunda,7865
+mp-gohad,7539
+mp-goharganj,7480
+mp-gopalganj,7695
+mp-gotegaon,7794
+mp-gourihar,7688
+mp-guna,7542
+mp-gunnore,7731
+mp-gwalior,751
+mp-gyraspur,7596
+mp-hanumana,7664
+mp-harda,7577
+mp-harrai,7168
+mp-harsud,7327
+mp-hatta,7604
+mp-hoshangabad,7574
+mp-ichhawar,7561
+mp-ilamidi,7854
+mp-indore,731
+mp-isagarh,7541
+mp-itarsi,7572
+mp-jabalpur,761
+mp-jabera,7606
+mp-jagdalpur,7782
+mp-jaisinghnagar,7651
+mp-jaithari,7659
+mp-jaitpur,7657
+mp-jaitwara,7671
+mp-jamai,7160
+mp-janjgir,7817
+mp-jaora,7414
+mp-jarwa,7787
+mp-jashpurnagar,7763
+mp-jatara,7681
+mp-jawad,7420
+mp-jhabua,7392
+mp-jobat,7393
+mp-jora,7537
+mp-kakaiya,7649
+mp-kanker,7868
+mp-kannod,7273
+mp-kannodi,7656
+mp-karanjia,7645
+mp-kareli,7793
+mp-karera,7493
+mp-karhal,7533
+mp-karpa,7628
+mp-kasdol,7728
+mp-kasrawad,7285
+mp-katangi,7630
+mp-kathdol,7770
+mp-kathghora,7815
+mp-katni,7622
+mp-kawardha,7741
+mp-keolari,7694
+mp-keskal,7848
+mp-khachrod,7366
+mp-khairagarh,7820
+mp-khajuraho,7686
+mp-khakner,7329
+mp-khalwa,7328
+mp-khandwa,733
+mp-khaniadhana,7497
+mp-khargone,7282
+mp-khategaon,7274
+mp-khetia,7286
+mp-khilchipur,7370
+mp-khirkiya,7571
+mp-khurai,7581
+mp-kolaras,7494
+mp-kondagaon,7786
+mp-konta,7866
+mp-korba,7759
+mp-kota,7753
+mp-kotma,7658
+mp-koyelibeda,7840
+mp-kuakunda,7858
+mp-kukshi,7297
+mp-kundam,7623
+mp-kunkuri,7764
+mp-kurud,7705
+mp-kurwai,7593
+mp-kusmi,7804
+mp-laher,7529
+mp-lakhnadon,7690
+mp-lamta,7634
+mp-lanji,7635
+mp-lateri,7590
+mp-laundi,7687
+mp-lohadigundah,7859
+mp-lormi,7756
+mp-luckwada,7788
+mp-mahasamund,7723
+mp-maheshwar,7283
+mp-mahidpurcity,7365
+mp-maihar,7674
+mp-majhagwan,7670
+mp-majholi,7803
+mp-makodi,7785
+mp-malhargarh,7424
+mp-manasa,7421
+mp-manawar,7291
+mp-mandla,7642
+mp-mandsaur,7422
+mp-manendragarh,7771
+mp-manpur,7746:7703:7627
+mp-marwahi,7750
+mp-mauganj,7663
+mp-mawai,7648
+mp-mehgaon,7527
+mp-mhow,7324
+mp-mohla,7747
+mp-morena,7532
+mp-multai,7147
+mp-mungaoli,7548
+mp-mungeli,7755
+mp-nagod,7673
+mp-nagri,7700
+mp-nainpur,7646
+mp-narainpur,7781
+mp-narsingharh,7375
+mp-narsinghpur,7792
+mp-narwar,7491
+mp-nasrullaganj,7563
+mp-nateran,7595
+mp-neemuch,7423
+mp-neora,7721
+mp-netanar,7861
+mp-niwari,7680
+mp-niwas,7641
+mp-nowgaon,7685
+mp-odgi,7773
+mp-pachmarhi,7578
+mp-padamkot,7783
+mp-pakhanjur,7844
+mp-pali,7816
+mp-pandaria,7754
+mp-pandhana,7320
+mp-pandhurna,7164
+mp-pandishankar,7819
+mp-panna,7732
+mp-parasgaon,7784
+mp-parasia,7161
+mp-pasan,7811
+mp-patan,7826:7621
+mp-patera,7605
+mp-pathalgaon,7765
+mp-patharia,7601
+mp-pawai,7733
+mp-pendra,7751
+mp-petlawad,7391
+mp-pichhore,7496
+mp-pingeshwar,7701
+mp-piparia,7576
+mp-pohari,7490
+mp-prabha pattan,7148
+mp-pratappur,7777
+mp-premnagar,7776
+mp-punasa,7323
+mp-pushprajgarh,7629
+mp-raghogarh,7544
+mp-raghunathpur,7535
+mp-rahatgarh,7584
+mp-raigarh,7762
+mp-raipur,771
+mp-raisen,7482
+mp-rajandgaon,7744
+mp-rajgarh,7372
+mp-rajpur,7832:7284
+mp-ramchandrapur,7779
+mp-ratlam,7412
+mp-rehli,7585
+mp-rewa,7662
+mp-sabalgarh,7536
+mp-sagar,7582
+mp-sailana,7413
+mp-sanwer,7321
+mp-saraipali,7725
+mp-saranggarh,7768
+mp-sarangpur,7371
+mp-sardarpur,7296
+mp-sarona,7841
+mp-satna,7672
+mp-saunsar,7165
+mp-sehore,7562
+mp-semaria,7778
+mp-sendhwa,7281
+mp-seondha,7521
+mp-seoni,7692
+mp-seonimalwa,7570
+mp-shahdol,7652
+mp-shahnagar,7734
+mp-shahpur,7640
+mp-shajapur,7364
+mp-shakti,7757
+mp-sheopurkalan,7530
+mp-shivpuri,7492
+mp-shujalpur,7360
+mp-sidhi,7822
+mp-sihora,7624
+mp-silwani,7484
+mp-singrauli,7805
+mp-sirmour,7660
+mp-sironj,7591
+mp-sitamau,7426
+mp-sitapur,7834
+mp-sohagpur,7575
+mp-sondhwa,7395
+mp-sonkatch,7270
+mp-sukma,7864
+mp-surajpur,7775
+mp-susner,7361
+mp-tamia,7149
+mp-tapkara,7761
+mp-tarana,7369
+mp-tendukheda,7603
+mp-teonthar,7661
+mp-thandla,7390
+mp-tikamgarh,7683
+mp-timarani,7573
+mp-toynar,7852
+mp-udaipur,7833
+mp-udaipura,7485
+mp-ujjain,734
+mp-umariapan,7625
+mp-uproda,7810
+mp-vidisha,7592
+mp-vijayraghogarh,7626
+mp-wadrainagar,7772
+mp-waraseoni,7633
+mp-zhirnia,7289
+nd-new delhi,11
+ne-agartala,381
+ne-aizawal-i,389
+ne-aizwal-ii (serchip),3838
+ne-along,3783
+ne-ambasa,3826
+ne-amlaren (dawki),3653
+ne-anini,3801
+ne-baghmara,3639
+ne-bameng,3785
+ne-basar,3795
+ne-belonia,3823
+ne-bishenpur,3879
+ne-chakpikarong,3878
+ne-champa-i,3831
+ne-champai-ii (chiapui),3830
+ne-chandel,3872
+ne-changlang,3808
+ne-cherrapunjee,3637
+ne-chowkhem,3806
+ne-churchandpur,3874
+ne-dadengiri (phulbari),3650
+ne-daporizo,3792
+ne-demagiri,3834
+ne-dharam nagar,3822
+ne-dimapur,3862
+ne-dirang,3780
+ne-hayuliang,3805
+ne-huri,3789
+ne-imphal,385
+ne-itanagar,360
+ne-jairampur,3800
+ne-jalukie,3839
+ne-jiribam,3876
+ne-jowai,3652
+ne-kailsahar,3824
+ne-kalaktung (bomdila),3782
+ne-khliehriat,3655
+ne-khonsa,3786
+ne-khowai,3825
+ne-kiphire,3863
+ne-kohima,370
+ne-kolaring,3788
+ne-kolasib,3837
+ne-lungleh,372
+ne-mairang,3657
+ne-mao (korang),3871
+ne-mariyang,3798
+ne-mawkyrwat,3656
+ne-mechuka,3793
+ne-miao,3807
+ne-mokokchung,369
+ne-mon,3869
+ne-nefra,3784
+ne-nongpoh,3638
+ne-nongstoin,3654
+ne-pakkekesang,3778
+ne-pangin,3797
+ne-passighat,368
+ne-phek,3865
+ne-r.k.pur,3821
+"ne-resubelpara 
+(mendipathar)",3659
+ne-roing-i,3803
+ne-roing-ii (arda),3802
+ne-roing-iii (mariso),3779
+ne-sadarhills (kangpokai),3880
+ne-sagalee,3809
+ne-saiha-i,3835
+ne-saiha-ii (tuipang),3836
+ne-seppa,3787
+ne-shillong,364
+ne-tali,3790
+ne-taliha,3791
+ne-tamenglong,3877
+ne-tawang,3794
+ne-tezu,3804
+ne-thinghat,3873
+ne-thonbal,3848
+ne-tuengsang,3861
+ne-tura,3651
+ne-tuting,3799
+ne-ukhrul central,3845
+ne-ukhrursouth (kassemkhulen),3870
+ne-williamnagar,3658
+ne-wokha,3860
+ne-yangkiyang,3777
+ne-zuenheboto,3867
+or-anandapur,6731
+or-anugul,6764
+or-aska,6822
+or-athgarh,6723
+or-athmallik,6763
+or-attabira,6682
+or-bagdihi,6640
+or-balangir,6652
+or-balasore,6782
+or-baliguda,6846
+or-balugaon,6756
+or-banaigarh,6626
+or-bangiriposi,6791
+or-barbil,6767
+or-bargarh,6646
+or-baripada,6792
+or-barkot,6643
+or-basta,6781
+or-berhampur,680
+or-betanati,6793
+or-bhadrak,6784
+or-bhanjanagar,6821
+or-bhawanipatna,6670
+or-bhubaneshwar,674
+or-birmaharajpur,6651
+or-bisam cuttack,6863
+or-boriguma,6860
+or-boudh,6841
+or-buguda,6818
+or-chandbali,6786
+or-chhatrapur,6811
+or-chhendipada,6761
+or-cuttack,671
+or-daringbadi,6849
+or-daspalla,6757
+or-deodgarh,6641
+or-dhanmandal,6725
+or-dharamgarh,6672
+or-dhenkanal,6762
+or-digapahandi,6814
+or-dunguripali,6653
+or-g.udayagiri,6847
+or-ghatgaon,6733
+or-gudari,6862
+or-gunupur,6857
+or-hemgiri,6621
+or-hindol,6732
+or-jagatsinghpur,6724
+or-jajapur road,6726
+or-jajapur town,6728
+or-jamankira,6649
+or-jashipur,6797
+or-jayapatna,6673
+or-jeypore,6854
+or-jharigan,6867
+or-jharsuguda,6645
+or-jujumura,6681
+or-kalimela,6850
+or-kamakhyanagar,6769
+or-kantabhanji,6657
+or-kantamal,6844
+or-karanjia,6796
+or-kashipur,6865
+or-kendrapara,6727
+or-keonjhar,6766
+or-khalikote,6810
+or-khurda,6755
+or-komana,6679
+or-koraput,6852
+or-kotagarh,6848
+or-kuchinda,6642
+or-lahunipara,6625
+or-laxmipur,6855
+or-m.rampur,6676
+or-malkangiri,6861
+or-mathili,6864
+or-mohana,6816
+or-motu,6859
+or-naktideul,6647
+or-nandapur,6868
+or-narlaroad,6677
+or-narsinghpur,6721
+or-nayagarh,6753
+or-nimapara,6758
+or-nowparatan,6678
+or-nowrangapur,6858
+or-padmapur,6683
+or-paikamal,6684
+or-palla hara,6765
+or-papadhandi,6869
+or-parajang,6768
+or-pardip,6722
+or-parlakhemundi,6815
+or-patnagarh,6648
+or-pattamundai,6729
+or-phiringia,6845
+or-phulbani,6842
+or-puri,6752
+or-puruna katak,6843
+or-r.udayigiri,6817
+or-rairakhol,6644
+or-rairangpur,6794
+or-rajgangpur,6624
+or-rajkhariar,6671
+or-rayagada,6856
+or-rourkela,661
+or-sambalpur,663
+or-sohela,6685
+or-sonapur,6654
+or-soro,6788
+or-sunabeda,6853
+or-sundargarh,6622
+or-surada,6819
+or-t.rampur,6675
+or-talcher,6760
+or-telkoi,6735
+or-titlagarh,6655
+or-tumudibandha,6840
+or-udala,6795
+or-umerkote,6866
+pb-abohar,1634
+pb-ajnala,1858
+pb-amritsar,183
+pb-balachaur,1885
+pb-barnala,1679
+pb-batala,1871
+pb-bhatinda,164
+pb-chandigarh,172
+pb-dasua,1883
+pb-dinanagar,1875
+pb-faridakot,1639
+pb-fazilka,1638
+pb-ferozepur,1632
+pb-garhashanker,1884
+pb-goindwal,1859
+pb-gurdaspur,1874
+pb-guruharsahai,1685
+pb-hoshiarpur,1882
+pb-jagraon,1624
+pb-jallandhar,181
+pb-jugial,1870
+pb-kapurthala,1822
+pb-kharar,160
+pb-kotkapura,1635
+pb-ludhiana,161
+pb-malaut,1637
+pb-malerkotla,1675
+pb-mansa,1652
+pb-moga,1636
+pb-muktasar,1633
+pb-nabha,1765
+pb-nakodar,1821
+pb-nangal,1887
+pb-nawanshahar,1823
+pb-pathankot,186
+pb-patiala,175
+pb-patti,1851
+pb-phagwara,1824
+pb-phillaur,1826
+pb-phulmandi,1651
+pb-quadian,1872
+pb-rajpura,1762
+pb-raman,1655
+pb-rayya,1853
+pb-ropar,1881
+pb-samana,1764
+pb-samrala,1628
+pb-sangrur,1672
+pb-sardulgarh,1659
+pb-sarhind,1763
+pb-sultanpur lodhi,1828
+pb-sunam,1676
+pb-tanda urmar,1886
+pb-taran taran,1852
+pb-zira,1682
+rj-abu road,2974
+rj-ahore,2978
+rj-ajmer,145
+rj-aklera,7431
+rj-alwar,144
+rj-amber (chomu),1423
+rj-amet,2908
+rj-anupgarh (e),1498
+rj-anupgarh (w) (gharsana),1506
+rj-asind,1480
+rj-aspur,2967
+rj-atru,7451
+rj-bagidora,2968
+rj-bali (n),2933
+rj-bali (s),2938
+rj-bamanwas,7467
+rj-banera,1487
+rj-bansur,1461
+rj-banswara,2962
+rj-baran,7453
+rj-bari,5647
+rj-barisadri,1473
+rj-barmer (e) (gudda),2983
+rj-barmer (n) (kanot),2902
+rj-barmer (s) sindari,2984
+"rj-barmer (sw) 
+(dhorimanna)",2986
+rj-barmer (w) (ramsar),2985
+rj-barmer(c),2982
+rj-baseri,5646
+rj-bassi,1429
+rj-baswa (bandikui),1420
+rj-bayana,5648
+rj-beawar,1462
+rj-begun(n),1474
+rj-begun(s) (rawatbhata),1475
+rj-behror,1494
+rj-bhadra,1504
+rj-bharatpur,5644
+rj-bhilwara,1482
+rj-bhim (n),2951
+rj-bhim (s) (dawer),2909
+rj-bhinmal (n),2969
+rj-bhinmal (s) (jasawantpura),2990
+rj-bikaner (e) (jamsar),1522
+rj-bikaner (n) (chhatargarh),1520
+rj-bikaner (s),151
+rj-bikaner (w) (poogal),1523
+rj-bikaner(c) (jaimalsar),1521
+rj-bilara (n) (bhopalgarh),2920
+rj-bilara (s) (piparcity),2930
+rj-bonli,7466
+rj-bundi,747
+rj-chhabra,7452
+rj-chhipaborad,7454
+rj-chirawa,1596
+rj-chittorgarh,1472
+rj-chohtan (n),2989
+rj-chohtan (s) (gangasar),2903
+rj-churu,1562
+rj-dantara,1577
+"rj-dantaramgarh (e) 
+(shyamji)",1576
+rj-dausa,1427
+rj-deedwana,1580
+rj-deeg,5641
+rj-degana,1587
+rj-deogarh,2904
+rj-deoli,1434
+rj-desuri (rani),2934
+rj-dhariawad,2950
+rj-dholpur,5642
+rj-digod (sultanpur),7455
+rj-dudu,1428
+rj-dungarpur,2964
+rj-dungla,1470
+rj-fat,1571
+rj-gangapur,7463
+rj-gangdhar,7435
+rj-gerhi (partapur),2963
+rj-ghatol,2961
+rj-girwa (udaipur),294
+rj-gogunda,2956
+rj-hanumangarh,1552
+rj-hindaun,7469
+rj-hindoli,7436
+rj-hurda (gulabpura),1483
+rj-jahazpur,1485
+rj-jaipur,141
+rj-jaisalmer-1 (ramgarh),2991
+rj-jaisalmer-10 (khuri),3014
+rj-jaisalmer-11 (jaisalmer),2992
+rj-jaisalmer-12 (devikot),2993
+rj-jaisalmer-13 (myajlar),3015
+"rj-jaisalmer-14 
+(jheenjaniyali)",3016
+rj-jaisalmer-2 (sadhna),3018
+rj-jaisalmer-3 (nehdai),2999
+rj-jaisalmer-4 (shahgarh),3010
+rj-jaisalmer-5 (khuiyals),2998
+rj-jaisalmer-6 (pasewar),3011
+rj-jaisalmer-7 (mohargarh),2997
+rj-jaisalmer-8 (mehsana),3012
+rj-jaisalmer-9 (dhanaua),3013
+rj-jaitaran,2939
+rj-jalore,2973
+rj-jalore (w) (sayla),2977
+rj-jamwa-ramgarh (achrol),1426
+rj-jayal,1583
+rj-jhadol,2959
+rj-jhalawar,7432
+rj-jhunjhunu (n) (bissau),1595
+rj-jhunjhunu (s),1592
+rj-jodhpur (e),291
+rj-jodhpur (w) (jhanwar),2931
+rj-kaman,5640
+rj-kapasan,1476
+rj-karauli,7464
+rj-kekri (e),1467
+rj-kekri (w) (bhinai),1466
+rj-keshoraipatan (patan),7438
+rj-khandar,7468
+rj-khanpur,7430
+rj-kherwara,2907
+rj-khetri,1593
+"rj-kishanganj 
+(bhanwargarh)",7456
+"rj-kishangarh (n) 
+(roopangarh)",1497
+rj-kishangarh (s),1463
+rj-kishangarhbas (khairthal),1460
+rj-kolayat-i (goddo),1533
+rj-kolayat-ii,1534
+rj-kolayat-iii (bajju),1535
+rj-kolayat-iv (daitra),1536
+rj-kotputli,1421
+rj-kotra,2958
+rj-kotri,1488
+"rj-kumbalgarh 
+(charbhujaji)",2954
+rj-kushalgarh,2965
+rj-ladnun,1581
+rj-ladpu,744
+rj-lalsot,1431
+rj-laxma,1573
+rj-laxmangar,1570
+rj-laxmangarh (kherli),1492
+rj-lunkaransar-i (kanholi),1529
+rj-lunkaransar-ii (mahajan),1526
+"rj-lunkaransar-iii 
+(rajasarb)",1527
+rj-lunkaransar-iv,1528
+rj-mahuwa,7461
+rj-malpura,1437
+rj-malvi (fatehnagar),2955
+rj-mandal,1486
+rj-mandalgarh,1489
+rj-mandawar,1495
+rj-mangrol,7457
+rj-marwar-jn,2935
+rj-merta (e),1590
+rj-merta (w),1591
+rj-nadbai,5643
+"rj-nagaur (e) (mundwa 
+marwar)",1584
+rj-nagaur (n),1582
+rj-nagaur (w) (khinwsar),1585
+rj-nainwa,7437
+rj-nasirabad,1491
+rj-nathdwara,2953
+rj-nawa (kuchamancity),1586
+rj-neem,1574
+rj-newai,1438
+rj-nimbahera,1477
+rj-nohar (e),1555
+rj-nohar (w) (jedasar),1502
+rj-nohar(c) (rawatsar),1537
+rj-nokha (e),1531
+rj-nokha (w) (nathusar),1532
+rj-osian (e) (dhanwara),2927
+rj-osian (n),2922
+rj-osian (s) (mathania),2926
+rj-pachpadra (e) (korna),2980
+rj-pachpadra (w) (balotra),2988
+rj-pachpahar (bhawanimandi),7433
+rj-padampur,1505
+rj-pali (n) (rohat),2936
+rj-pali (s),2932
+rj-parbatsar (n) (makrana),1588
+rj-parbatsar (s),1589
+rj-phagi,1430
+rj-phalodi (e) (lohawat),2923
+rj-phalodi (n) (bap),2921
+rj-phalodi (s),2925
+rj-phalodi (w) (baroo),2924
+rj-phulera (e) (renwal),1424
+rj-phulera (w) (sambhar),1425
+rj-pindwara,2971
+rj-pipalda (sumerganj mandi),7458
+rj-pirawa (raipur),7434
+rj-pokran-1 (nachna),2995
+rj-pokran-2 (madasar),3017
+rj-pokran-3 (loharki),2996
+rj-pokran-4 (pokran),2994
+rj-pokran-5 (phalsoond),3019
+rj-pratapgarh (n),1478
+rj-pratapgarh (s) (arnod),1479
+rj-raipur,1481:2937
+rj-raisinghnagar,1507
+rj-rajgarh,1464:1559
+rj-rajsamand (kankorli),2952
+rj-ramganj mandi,7459
+rj-ramgarh,1468
+rj-rashmi,1471
+rj-ratangarh,1567
+rj-reodar,2975
+rj-rupbas,5645
+rj-sadulshahar,1503
+rj-sagwara,2966
+rj-sahabad,7460
+rj-salumber,2906
+rj-sanchore (e),2979
+rj-sanchore (w) (hadecha),2970
+rj-sangaria,1499
+rj-sangod,7450
+rj-sapotra,7465
+rj-sarada (chawand),2905
+"rj-sardarshahar (n)- 
+jaitsisar",1563
+rj-sardarshahar (s),1564
+rj-sarwar,1496
+rj-sawaimadhopur,7462
+rj-shahapura,1484
+rj-sheo (e),2987
+rj-sheo (w) (harsani),2981
+rj-sheoganj (posaliyan),2976
+rj-shergarh (n) (balesar),2929
+rj-shergarh (n) (deechu),2928
+rj-sikar,1572
+rj-sirohi,2972
+rj-siwana (e) (samdari),2900
+rj-siwana (w),2901
+rj-sojat (sojat-city),2960
+rj-sridungargarh (n)- dungargh,1565
+"rj-sridungargarh (s) 
+(sudsar)",1566
+rj-sriganganagar,154
+rj-srikaranpur,1501
+rj-srimadhopur,1575
+rj-sujangarh (e),1568
+rj-sujangarh (w) (lalgarh),1569
+rj-sujangarh(c) (bidasar),1560
+"rj-suratgarh (n) 
+(goluwala)",1508
+rj-suratgarh (s),1509
+rj-taranagar,1561
+rj-thanaghazi,1465
+rj-tibbi,1539
+rj-tijara (n) (bhiwadi),1493
+rj-tijara (s),1469
+rj-todaraisingh,1433
+rj-tonk (n) (piploo),1435
+rj-tonk (s),1432
+rj-udaipurwati,1594
+rj-uniayara,1436
+rj-vallabhnagar,2957
+rj-viratnagar (shahpura),1422
+tn-ambasamudram,4634
+tn-anamalai,4253
+tn-arakandanallur,4153
+tn-arantangi,4371
+tn-aravakurichi,4320
+tn-ariyalur,4329
+tn-arkonam,4177
+tn-arni,4173
+tn-aruppukottai,4566
+tn-attur,4282
+tn-avanashi,4296
+tn-batlagundu,4543
+tn-bhavani,4256
+tn-chengalpattu,4114
+tn-chengam,4188
+tn-chennai,44
+tn-chidambaram,4144
+tn-coimbatore,422
+tn-cuddalore,4142
+tn-cumbum,4554
+tn-denkanikoitah,4347
+tn-devakottai,4561
+tn-dharampuram,4258
+tn-dharmapuri,4342
+tn-dindigul,451
+tn-erode,424
+tn-gingee,4145
+tn-gobichettipalayam,4285
+tn-gudalur,4262
+tn-gudiyatham,4171
+tn-harur,4346
+tn-hosur,4344
+tn-jayamkondan,4331
+tn-kallkurichi,4151
+tn-kancheepuram,4112
+tn-kangayam,4257
+tn-karaikal,4368
+tn-karaikudi,4565
+tn-karur,4324
+tn-keeranur,4339
+tn-kodaikanal,4542
+tn-kodumudi,4204
+tn-kotagiri,4266
+tn-kovilpatti,4632
+tn-krishnagiri,4343
+tn-kulithalai,4323
+tn-kumbakonam,435
+tn-kuzhithurai,4651
+tn-madurai,452
+tn-madurantagam,4115
+tn-manamadurai,4574
+tn-manaparai,4332
+tn-mannargudi,4367
+tn-mayiladuthurai,4364
+tn-mettupalayam,4254
+tn-metturdam,4298
+tn-mudukulathur,4576
+tn-mulanur,4202
+tn-musiri,4326
+tn-nagapattinam,4365
+tn-nagercoil,4652
+tn-namakkal,4286
+tn-nanguneri,4635
+tn-natham,4544
+tn-oddanchatram,4553
+tn-omalur,4290
+tn-ootacamund,423
+tn-orathanad,4372
+tn-palacode,4348
+tn-palani,4545
+tn-palladum,4255
+tn-papanasam,4374
+tn-paramakudi,4564
+tn-pattukottai,4373
+tn-perambalur,4328
+tn-perundurai,4294
+tn-pollachi,4259
+tn-polur,4181
+tn-pondicherry,413
+tn-ponnamaravathi,4333
+tn-ponneri,4119
+tn-pudukkottai,4322
+tn-rajapalayam,4563
+tn-ramanathpuram,4567
+tn-rameshwaram,4573
+tn-ranipet,4172
+tn-rasipuram,4287
+tn-salem,427
+tn-sankagiri,4283
+tn-sankaran koil,4636
+tn-sathiyamangalam,4295
+tn-sivaganga,4575
+tn-sriperumpudur,4111
+tn-srivaikundam,4630
+tn-tenkasi,4633
+tn-thanjavur,4362
+tn-theni,4546
+tn-thirumanglam,4549
+tn-thiruraipoondi,4369
+tn-thuraiyure,4327
+tn-tindivanam,4147
+tn-tiruchendur,4639
+tn-tiruchengode,4288
+tn-tirunelvelli,462
+tn-tirupathur,4577
+tn-tirupattur,4179
+tn-tirupur,421
+tn-tiruttani,4118
+tn-tiruvannamalai,4175
+tn-tiruvarur,4366
+tn-tiruvellore,4116
+tn-tiruvettipuram,4182
+tn-trichy,431
+tn-tuticorin,461
+tn-udumalpet,4252
+tn-ulundurpet,4149
+tn-usiliampatti,4552
+tn-uthangarai,4341
+tn-valapady,4292
+tn-valliyoor,4637
+tn-vaniyambadi,4174
+tn-vedasandur,4551
+tn-vellore,416
+tn-velur,4268
+tn-vilathikulam,4638
+tn-villupuram,4146
+tn-virudhachalam,4143
+tn-virudhunagar,4562
+tn-wandiwash,4183
+tn-yercaud,4281
+upe-akbarpur,5111
+upe-akbarpur-i (akbarpur),5271
+upe-akbarpur-ii (jalalpur),5275
+upe-allahabad,532
+upe-amethi,5368
+upe-auraiya,5683
+upe-azamgarh,5462
+upe-baberu,5190
+upe-bahraich-i (bahrailh),5252
+upe-bahraich-ii (bhinga),5250
+upe-balarampur-i (balrampur),5263
+upe-balarampur-ii (tulsipur),5264
+upe-ballia-i (ballia),5498
+upe-ballia-ii (raniganj),5496
+upe-banda,5192
+upe-bansdeeh,5494
+upe-bansgaon -i (bansgaon),5525
+upe-bansgaon-ii (barhal ganj),5521
+upe-bansi,5545
+upe-barabanki,5248
+upe-basti,5542
+upe-bhadohi,5414
+upe-bharthana,5680
+upe-bharwari,5331
+upe-bhogaon,5673
+upe-bhognipur (pakhrayan),5113
+upe-bidhuna,5681
+upe-bikapur,5270
+upe-bilgam-i (madhoganj),5851
+upe-bilgram-ii (sandi),5855
+upe-bilhaur,5112
+upe-bindki,5181
+upe-biswan,5863
+upe-captanganj (khadda),5563
+"upe-captanganj-i 
+(captanganj)",5567
+upe-chakia,5413
+upe-chandauli (mugalsarai),5412
+upe-charkhari,5283
+upe-chhibramau,5691
+upe-chirgaon (moth),5170
+upe-chunur,5443
+upe-dalmau-i (dalmau),5317
+upe-dalmau-ii (lalganj),5315
+upe-deoria,5568
+upe-derapur (jhinjak),5114
+upe-domariyaganj,5541
+upe-dudhi-i (dudhi),5447
+upe-dudhi-ii (pipri),5446
+upe-etawah,5688
+upe-faizabad,5278
+upe-farrukhabad (fategarh),5692
+upe-fateh-pur-i (fatehpur),5180
+upe-fatehpur,5240
+upe-fatehpur-ii (gazipur),5183
+upe-garauth,5171
+upe-ghatampur,5115
+upe-ghazipur,548
+upe-ghosi,5461
+upe-gonda,5262
+upe-gorakhpur,551
+upe-haidergarh,5244
+upe-hamirpur,5282
+upe-hardoi-i (hardoi),5852
+upe-hardoi-ii (baghavli),5850
+upe-harraiya,5546
+upe-hasanganj,5143
+upe-jalalabad,5843
+upe-jalaun,5168
+upe-jasrana,5671
+upe-jaunpur,5452
+upe-jhansi,5174
+upe-kadipur,5364
+upe-kaimganj,5690
+upe-kaisarganh-ii (mahasi),5255
+upe-kaisarganj-i (kaiserganj),5251
+upe-kalpi,5164
+upe-kannauj,5694
+upe-kanpur,512
+"upe-karchhana 
+(shankergarh)",5333
+upe-karhal,5677
+upe-karvi -i (karvi),5198
+upe-karvi-ii (manikpur),5194
+upe-kerakat,5450
+upe-khaga,5182
+upe-khalilabad -i,5547
+upe-khalilabad-ii (mehdawal),5548
+upe-kheri-i (kheri),5872
+upe-kheri-ii (bhira),5870
+upe-konch,5165
+upe-kunda,5341
+upe-lalganj,5463
+upe-lalitpur-i (lalitpur),5176
+upe-lalitpur-ii (talbehat),5175
+upe-lucknow,522
+upe-machlishahar,5454
+upe-maharajganj,5523
+upe-mahoba,5281
+upe-mainpuri,5672
+upe-malihabad,5212
+upe-mariyahu,5451
+upe-mau (rajapur),5195
+upe-maudaha,5284
+upe-maunathbhanjan,5464
+upe-mauranipur,5178
+upe-mehraun,5172
+upe-meja (sirsa),5334
+upe-mirzapur-i (mirzapur),5442
+upe-mirzapur-ii (hallia),5440
+upe-misrikh -i (misrikh),5865
+upe-misrikh-ii (aurangabad),5861
+upe-mohamdabad,5493
+upe-mohamdi-i (mohamdi),5876
+upe-mohamdi-ii (maigalganj),5875
+upe-musafirkhana,5361
+upe-nanpara-i (nanpara),5253
+upe-nanparah-ii (mihinpurwa),5254
+upe-naraini (attarra),5191
+upe-naugarh-i (tetribazar),5544
+upe-naugarh-ii (barhani),5543
+upe-nighasan-i (palliakalan),5871
+upe-nighasan-ii (tikonia),5873
+upe-nighasan-iii (dhaurahra),5874
+upe-orai,5162
+upe-padrauna,5564
+upe-patti,5343
+"upe-pharenda-i 
+(compierganj)",5522
+upe-pharenda-ii (anand nagar),5524
+upe-phoolpur,5332
+upe-phulpur-i (phulpur),5460
+upe-phulpur-ii (atrawlia),5465
+upe-powayan,5844
+upe-pratapgarh,5342
+upe-purwa (bighapur),5142
+upe-raibareli,535
+upe-ramsanehi ghat,5241
+upe-rasara,5491
+upe-rath,5280
+upe-robertsganj -ii (obra),5445
+upe-robertsganj-i,5444
+upe-safipur,5144
+upe-sagri,5466
+upe-saidpur,5495
+upe-salempur-i (salempur),5566
+upe-salempur-ii (barhaj),5561
+upe-salon -i (salon),5311
+upe-salon-ii (jais),5313
+upe-sandila,5854
+upe-shahabad,5853
+upe-shahganj,5453
+upe-shahjahanpur,5842
+upe-shikohabad,5676
+upe-sidhauli (mahmodabad),5864
+upe-sitapur,5862
+upe-soraon,5335
+upe-sultanpur,5362
+upe-tanda-ii (baskhari),5274
+upe-tandai-i (tanda),5273
+upe-tarabganj-i (terabganj),5260
+"upe-tarabganj-ii 
+(colonelganj)",5261
+upe-tilhar,5841
+upe-unnao,515
+upe-utraula,5265
+upe-varansi,542
+upe-zamania,5497
+upw-achhnera,5613
+upw-agra,562
+upw-aliganj (ganjdundwara),5740
+upw-aligarh,571
+upw-almora,5962
+upw-amroha,5922
+upw-aonla -i,5823
+upw-aonla-ii (ramnagar),5824
+upw-atrauli,5723
+upw-badaun,5832
+upw-bageshwar,5963
+upw-baghpat-ii (baraut),1234
+upw-baheri,5822
+upw-bareilly,581
+upw-bhatwari-i (gangotri),1377
+upw-bhatwari-i (uttarkashi),1374
+upw-bijnore-i,1342
+upw-bijnore-ii (chandpur),1345
+upw-bilari,5921
+upw-bisalpur,5881
+upw-bisauli,5834
+upw-budhana,1392
+upw-bulandshahr,5732
+upw-chakrata (dakpather),1360
+upw-chamoli,1372
+upw-champawat,5965
+upw-chhata (kosikalan),5662
+upw-dataganj,5831
+upw-debai,5734
+upw-dehradun,135
+upw-deoband,1336
+upw-deoprayag-i,1378
+upw-deoprayag-ii (jakholi),1370
+upw-dhampur,1344
+upw-dharchula,5967
+upw-dunda,1371
+upw-etah,5742
+upw-ferozabad,5612
+upw-garhmukteshwar,5731
+upw-ghaziabad+dadri,120
+upw-gunnaur,5836
+upw-haldwani-i,5946
+upw-haldwani-ii (chorgalian),5945
+upw-hapur,122
+upw-hasanpur,5924
+upw-hathras,5722
+upw-jalesar,5745
+upw-jansath (khatauli),1396
+upw-jarar,5614
+upw-joshimath-i,1389
+upw-joshimath-ii (badrinath),1381
+upw-kairana (shamli),1398
+upw-karan prayag,1363
+upw-kasganj,5744
+upw-kashipur,5947
+upw-khair,5724
+upw-khatima,5943
+upw-khatima-ii (sitarganj),5948
+upw-khurja,5738
+upw-kichha-i (rudrapur),5944
+upw-kichha-ii (bazpur),5949
+upw-lansdown-i,1386
+upw-lansdown-ii (kotdwara),1382
+upw-lansdown-iii (syunsi),1348
+upw-mant (vrindavan),5664
+upw-mathura,565
+upw-mawana,1233
+upw-meerut,121
+upw-modinagar,1232
+upw-moradabad,591
+upw-munsiari,5961
+upw-muzaffar nagar,131
+upw-nagina,1343
+upw-nainital,5942
+upw-najibabad,1341
+upw-nakur (gangoh),1331
+upw-nawabganj,5825
+upw-pahasu,5733
+upw-partapnagar,1379
+upw-pauri-i,1368
+upw-pauri-ii (bubakhal),1346
+upw-pilibhit,5882
+upw-pitamberpur,5821
+upw-pithoragarh,5964
+upw-puranpur,5880
+upw-purola,1373
+upw-rajgarhi,1375
+upw-rampur,595
+upw-ranikhet,5966
+upw-roorkee-i,1332
+upw-roorkee-ii (hardwar),1334
+upw-sadabad,5661
+upw-saharanpur,132
+upw-sahaswan,5833
+upw-sambhal,5923
+upw-sardhana,1237
+upw-shahabad,5960
+upw-sikandra rao,5721
+upw-sikandrabad,5735
+upw-siyana,5736
+upw-tehri,1376
+upw-ukhimath (guptkashi),1364
+wb-adra,3251
+wb-alipurduar,3564
+wb-amlagora,3227
+wb-arambag,3211
+wb-asansol,341
+wb-balurghat,3522
+wb-bankura,3242
+wb-basirhat,3217
+wb-berhampur,3482
+wb-bethuadahari,3474
+wb-birpara,3563
+wb-bishnupur,3244
+wb-bolpur,3463
+wb-bongoan,3215
+wb-bubulchandi,3511
+wb-burdwan,342
+wb-canning,3218
+wb-champadanga,3212
+wb-contai,3220
+wb-coochbehar,3582
+wb-dalkhola,3525
+wb-dantan,3229
+wb-darjeeling,354
+wb-dhaniakhali,3213
+wb-dhuliyan,3485
+wb-diamond harbour,3174
+wb-dinhata,3581
+wb-durgapur,343
+wb-gangajalghati,3241
+wb-gangarampur,3521
+wb-gangtok,3592
+wb-gauzing (nayabazar),3595
+wb-ghatal,3225
+wb-guskara,3452
+wb-habra,3216
+wb-haldia,3224
+wb-harirampur,3524
+wb-harishchandrapur,3513
+wb-islampur (m),3481
+wb-islampur (nd),3526
+wb-jagatballavpur,3214
+wb-jalpaiguri,3561
+wb-jhalda,3254
+wb-jhargram,3221
+wb-kakdwip,3210
+wb-kalchini,3566
+wb-kalimpong,3552
+wb-kalna,3454
+wb-kandi,3484
+wb-karimpur,3471
+wb-katwa,3453
+wb-kharagpur,3222
+wb-khatra,3243
+wb-kolkata,33
+wb-krishna nagar,3472
+wb-mal bazar,3562
+wb-malda,3512
+wb-manbazar,3253
+wb-mathabhanga,3583
+wb-mekhliganj,3584
+wb-murshidabad (jiaganj),3483
+wb-nagarakata,3565
+wb-nalhati,3465
+wb-nayagarh (kultikri),3223
+wb-purulia,3252
+wb-raiganj,3523
+wb-rampur hat,3461
+wb-ranaghat,3473
+wb-seharabazar,3451
+wb-siliguri,353
+wb-suri,3462
+wb-tamluk,3228
