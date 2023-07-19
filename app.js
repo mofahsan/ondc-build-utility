@@ -102,9 +102,12 @@ async function matchKeyType(
   const schemaType = currentSchemaPos[currentAttrib]?.type;
   const allOfType = currentSchemaPos[currentAttrib]?.allOf?.[0]?.type;
   const itemType = currentSchemaPos[currentAttrib]?.items?.allOf?.[0]?.type;
+  const itemObject = currentSchemaPos[currentAttrib]?.properties;
+
 
   for (let i = 0; i < exampleArray?.length; i++) {
     const checkEnum = exampleArray[i];
+    const getFirstObjectItem = Object.keys(checkEnum)[0];
     //works for string
     let type = schemaType;
     //if type is array
@@ -113,9 +116,12 @@ async function matchKeyType(
     } else if (currentSchemaPos[currentAttrib]?.allOf) {
       type = allOfType;
     }
-
-    if (typeof checkEnum?.code != type) {
-      throw Error(`Enum type not matched: ${currentAttrib}`);
+    else if(schemaType === "object"){
+       type = itemObject[getFirstObjectItem]?.type
+    }
+   
+    if (typeof getFirstObjectItem != type) {
+          throw Error(`Enum type not matched: ${currentAttrib}`);
     }
   }
 }
@@ -126,7 +132,7 @@ async function checkObjectKeys(currentExamplePos, currentSchemaPos, logObject) {
     const currentSchema = currentSchemaPos[currentAttrib];
     if (currentSchema) {
       if (Array.isArray(currentExample)) {
-        await matchKeyType(currentAttrib, currentExamplePos, currentSchemaPos);
+        await matchKeyType(currentAttrib, currentExamplePos, currentSchemaPos, logObject);
       } else {
         let schema;
         if (currentSchema.type === "object") {
@@ -183,7 +189,7 @@ async function traverseTags(currentTagValue, schemaForTraversal, logObject) {
         const schema =
           schemaType.type === "object"
             ? schemaType?.properties
-            : schemaType.items?.properties;
+            : schemaType.items?.properties || schemaType.items?.allOf[0]?.properties;
         await traverseTags(currentTag, schema, logObject);
       }
     } else {
