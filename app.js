@@ -96,7 +96,8 @@ async function validateExamples(exampleSets, schemaMap) {
 async function matchKeyType(
   currentAttrib,
   currentExamplePos,
-  currentSchemaPos
+  currentSchemaPos,
+  logObject
 ) {
   const exampleArray = currentExamplePos[currentAttrib];
   const schemaType = currentSchemaPos[currentAttrib]?.type;
@@ -116,12 +117,9 @@ async function matchKeyType(
     } else if (currentSchemaPos[currentAttrib]?.allOf) {
       type = allOfType;
     }
-    else if(schemaType === "object"){
-       type = itemObject[getFirstObjectItem]?.type
-    }
    
     if (typeof getFirstObjectItem != type) {
-          throw Error(`Enum type not matched: ${currentAttrib}`);
+          throw Error(`Enum type not matched: ${currentAttrib} in ${logObject}`);
     }
   }
 }
@@ -234,16 +232,15 @@ async function getSwaggerYaml(example_set, outputPath) {
     if (!process.argv.includes(SKIP_VALIDATION.flows)) {
       hasTrueResult = await validateFlows(flows, schemaMap);
     }
-    if (!process.argv.includes(SKIP_VALIDATION.examples)) {
+    if (!process.argv.includes(SKIP_VALIDATION.examples) && !hasTrueResult) {
       hasTrueResult = await validateExamples(exampleSets, schemaMap);
     }
 
     //move to separate files
-    if (!process.argv.includes(SKIP_VALIDATION.enums)) {
+    if (!process.argv.includes(SKIP_VALIDATION.enums) && !hasTrueResult) {
       hasTrueResult = await validateEnumsTags(enums, schemaMap);
     }
-    //console.log('tags', JSON.stringify(tags))
-    if (!process.argv.includes(SKIP_VALIDATION.tags)) {
+    if (!process.argv.includes(SKIP_VALIDATION.tags) && !hasTrueResult) {
       hasTrueResult = await validateTags(tags, schemaMap);
     }
 
