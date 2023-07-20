@@ -103,7 +103,6 @@ async function matchKeyType(
   const schemaType = currentSchemaPos[currentAttrib]?.type;
   const allOfType = currentSchemaPos[currentAttrib]?.allOf?.[0]?.type;
   const itemType = currentSchemaPos[currentAttrib]?.items?.allOf?.[0]?.type;
-  const itemObject = currentSchemaPos[currentAttrib]?.properties;
 
 
   for (let i = 0; i < exampleArray?.length; i++) {
