@@ -107,7 +107,6 @@ async function matchKeyType(
 
   for (let i = 0; i < exampleArray?.length; i++) {
     const checkEnum = exampleArray[i];
-    const getFirstObjectItem = Object.keys(checkEnum)[0];
     //works for string
     let type = schemaType;
     //if type is array
@@ -116,8 +115,7 @@ async function matchKeyType(
     } else if (currentSchemaPos[currentAttrib]?.allOf) {
       type = allOfType;
     }
-   
-    if (typeof getFirstObjectItem != type) {
+    if (typeof checkEnum?.code != type) {
           throw Error(`Enum type not matched: ${currentAttrib} in ${logObject}`);
     }
   }
@@ -178,7 +176,6 @@ async function traverseTags(currentTagValue, schemaForTraversal, logObject) {
     const currentTag = currentTagValue[currentTagKey];
     const schemaType = schemaForTraversal[currentTagKey];
     if (schemaType) {
-      //&& currentTagKey == "tags"
       if (Array.isArray(currentTag)) {
         //write logic for matching tag values
       } else {
