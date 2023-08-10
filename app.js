@@ -22,8 +22,8 @@ var uiPath = "../../ui/build.js";
 // const outputPath = `./build.yaml`;
 // const unresolvedFilePath = `https://raw.githubusercontent.com/beckn/protocol-specifications/master/api/transaction/components/index.yaml`
 const tempPath = `./temp.yaml`;
-
 getSwaggerYaml("example_set", outputPath);
+// const { buildAttribiutes } = require('./build-attributes.js')
 
 const SKIP_VALIDATION = {
   flows: "skip1",
@@ -57,7 +57,8 @@ async function validateFlows(flows, schemaMap) {
     if (steps && steps?.length) {
       for (const step of steps) {
         for (const api of Object.keys(schemaMap)) {
-          if (step.api === api) {
+          // Not validating the flows for forms.
+          if (step.api === api && step.api !== "form") {
             const result = await validateSchema(schemaMap[api], step.example);
             if (result) {
               console.log("Error[flows]:", `${flowItem?.summary + "/" + api}`);
@@ -96,7 +97,8 @@ async function validateExamples(exampleSets, schemaMap) {
 async function matchKeyType(
   currentAttrib,
   currentExamplePos,
-  currentSchemaPos
+  currentSchemaPos,
+  logObject
 ) {
   const exampleArray = currentExamplePos[currentAttrib];
   const schemaType = currentSchemaPos[currentAttrib]?.type;
@@ -113,9 +115,8 @@ async function matchKeyType(
     } else if (currentSchemaPos[currentAttrib]?.allOf) {
       type = allOfType;
     }
-
     if (typeof checkEnum?.code != type) {
-      throw Error(`Enum type not matched: ${currentAttrib}`);
+      throw Error(`Enum type not matched: ${currentAttrib} in ${logObject}`);
     }
   }
 }
@@ -126,7 +127,12 @@ async function checkObjectKeys(currentExamplePos, currentSchemaPos, logObject) {
     const currentSchema = currentSchemaPos[currentAttrib];
     if (currentSchema) {
       if (Array.isArray(currentExample)) {
-        await matchKeyType(currentAttrib, currentExamplePos, currentSchemaPos);
+        await matchKeyType(
+          currentAttrib,
+          currentExamplePos,
+          currentSchemaPos,
+          logObject
+        );
       } else {
         let schema;
         if (currentSchema.type === "object") {
@@ -175,7 +181,6 @@ async function traverseTags(currentTagValue, schemaForTraversal, logObject) {
     const currentTag = currentTagValue[currentTagKey];
     const schemaType = schemaForTraversal[currentTagKey];
     if (schemaType) {
-      //&& currentTagKey == "tags"
       if (Array.isArray(currentTag)) {
         //write logic for matching tag values
       } else {
@@ -183,7 +188,9 @@ async function traverseTags(currentTagValue, schemaForTraversal, logObject) {
         const schema =
           schemaType.type === "object"
             ? schemaType?.properties
-            : schemaType.items?.properties;
+            : schemaType.items?.properties ||
+              schemaType.items?.allOf[0]?.properties ||
+              schemaType.allOf[0]?.properties;
         await traverseTags(currentTag, schema, logObject);
       }
     } else {
@@ -214,10 +221,13 @@ async function getSwaggerYaml(example_set, outputPath) {
   try {
     const schema = await baseYMLFile(example_yaml);
     const baseYAML = await baseYMLFile(base_yaml);
-    const { flows, examples: exampleSets, enum: enums, tags } = schema;
+    const { flows, examples: exampleSets, enum: enums, tags } = schema || [];
     const { paths } = baseYAML;
     let hasTrueResult = false; // Flag variable
     let schemaMap = {};
+    
+    //un-comment this function for parsing attributes
+    //  await buildAttribiutes();
 
     for (const path in paths) {
       const pathSchema =
@@ -228,16 +238,15 @@ async function getSwaggerYaml(example_set, outputPath) {
     if (!process.argv.includes(SKIP_VALIDATION.flows)) {
       hasTrueResult = await validateFlows(flows, schemaMap);
     }
-    if (!process.argv.includes(SKIP_VALIDATION.examples)) {
+    if (!process.argv.includes(SKIP_VALIDATION.examples) && !hasTrueResult) {
       hasTrueResult = await validateExamples(exampleSets, schemaMap);
     }
 
     //move to separate files
-    if (!process.argv.includes(SKIP_VALIDATION.enums)) {
+    if (!process.argv.includes(SKIP_VALIDATION.enums) && !hasTrueResult) {
       hasTrueResult = await validateEnumsTags(enums, schemaMap);
     }
-    //console.log('tags', JSON.stringify(tags))
-    if (!process.argv.includes(SKIP_VALIDATION.tags)) {
+    if (!process.argv.includes(SKIP_VALIDATION.tags) && !hasTrueResult) {
       hasTrueResult = await validateTags(tags, schemaMap);
     }
 
@@ -294,6 +303,7 @@ function addEnumTag(base, layer) {
   base["x-tags"] = layer["tags"];
   base["x-flows"] = layer["flows"];
   base["x-examples"] = layer["examples"];
+  base["x-attributes"] = layer["attributes"];
 }
 
 function GenerateYaml(base, layer, output_yaml) {
