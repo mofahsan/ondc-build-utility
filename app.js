@@ -23,13 +23,21 @@ var uiPath = "../../ui/build.js";
 // const unresolvedFilePath = `https://raw.githubusercontent.com/beckn/protocol-specifications/master/api/transaction/components/index.yaml`
 const tempPath = `./temp.yaml`;
 getSwaggerYaml("example_set", outputPath);
-// const { buildAttribiutes } = require('./build-attributes.js')
+const { buildAttribiutes } = require('./build-attributes.js')
+const { buildErrorCodes } = require('./build-error-code.js')
+const { buildTlc } = require('./build-tlc.js')
 
 const SKIP_VALIDATION = {
   flows: "skip1",
   examples: "skip2",
   enums: "skip3",
   tags: "skip4",
+};
+
+const BUILD = {
+  attributes: "attributes",
+  error: "errorCode",
+  tlc: "tlc"
 };
 
 async function baseYMLFile(file) {
@@ -226,8 +234,17 @@ async function getSwaggerYaml(example_set, outputPath) {
     let hasTrueResult = false; // Flag variable
     let schemaMap = {};
     
-    //un-comment this function for parsing attributes
-    //  await buildAttribiutes();
+    if (process.argv.includes(BUILD.attributes)) {
+      await buildAttribiutes()
+    }
+
+    if (process.argv.includes(BUILD.error)) {
+      await buildErrorCodes()
+    }
+
+    if (process.argv.includes(BUILD.tlc)) {
+      await buildTlc()
+    }
 
     for (const path in paths) {
       const pathSchema =
@@ -304,6 +321,8 @@ function addEnumTag(base, layer) {
   base["x-flows"] = layer["flows"];
   base["x-examples"] = layer["examples"];
   base["x-attributes"] = layer["attributes"];
+  base["x-errorcodes"] = layer["error_codes"];
+  base["x-tlc"] = layer["tlc"];
 }
 
 function GenerateYaml(base, layer, output_yaml) {
