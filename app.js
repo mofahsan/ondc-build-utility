@@ -8,6 +8,7 @@ const ajv = new Ajv({
   strict: "log",
 });
 const addFormats = require("ajv-formats");
+ajv.addFormat("phone", "")
 addFormats(ajv);
 require("ajv-errors")(ajv);
 const process = require("process");
@@ -23,13 +24,21 @@ var uiPath = "../../ui/build.js";
 // const unresolvedFilePath = `https://raw.githubusercontent.com/beckn/protocol-specifications/master/api/transaction/components/index.yaml`
 const tempPath = `./temp.yaml`;
 getSwaggerYaml("example_set", outputPath);
-// const { buildAttribiutes } = require('./build-attributes.js')
+const { buildAttribiutes } = require('./build-attributes.js')
+const { buildErrorCodes } = require('./build-error-code.js')
+const { buildTlc } = require('./build-tlc.js')
 
 const SKIP_VALIDATION = {
   flows: "skip1",
   examples: "skip2",
   enums: "skip3",
   tags: "skip4",
+};
+
+const BUILD = {
+  attributes: "attributes",
+  error: "errorCode",
+  tlc: "tlc"
 };
 
 async function baseYMLFile(file) {
@@ -199,7 +208,7 @@ async function traverseTags(currentTagValue, schemaForTraversal, logObject) {
   }
 }
 
-async function validateTags(tags, schema) {
+async function validateTags(tags, schema,isAttribute) {
   for (const tag of Object.keys(tags)) {
     const currentTag = tags[tag];
     const currentSchema = schema[tag]?.properties;
@@ -208,33 +217,79 @@ async function validateTags(tags, schema) {
     for (const tagItem of Object.keys(currentTag)) {
       const currentTagValue = currentTag[tagItem];
       let schemaForTraversal;
-      if (currentSchema[tagItem]?.type === "object") {
+            if (currentSchema[tagItem]?.type === "object") {
         schemaForTraversal = currentSchema[tagItem]?.properties;
+      }//for validating attribute contexts
+      else if(currentSchema[tagItem]?.allOf[0] && isAttribute){
+        schemaForTraversal = currentSchema[tagItem]?.allOf[0]?.properties;
       }
-      const logObject = `${tag}/${tagItem}`;
-      await traverseTags(currentTagValue, schemaForTraversal, logObject);
+      const logObject = `${isAttribute}/${tag}/${tagItem}/`;
+      if(isAttribute) await traverseAttributes(currentTagValue, schemaForTraversal, logObject);
+      else await traverseTags(currentTagValue, schemaForTraversal, logObject);
     }
   }
 }
 
+async function traverseAttributes(currentAttributeValue, schemaForTraversal, logObject) {
+  for (const currentAttributeKey of Object.keys(currentAttributeValue)) {
+    const currentAttr = currentAttributeValue[currentAttributeKey];
+    const schemaType = schemaForTraversal[currentAttributeKey];
+    
+    //&& 'type' in currentAttr && 'owner' in currentAttr && 'usage' in currentAttr && 'description' in currentAttr
+    if ('required' in currentAttr ) {
+      continue ;
+    }
+    if (schemaType) {
+      if (Array.isArray(currentAttr)) {
+        //write logic for matching attribute values
+      } else {
+        //read from items if type is array.
+        const schema =
+          schemaType.type === "object"
+            ? schemaType?.properties
+            : schemaType.items?.properties ||
+              schemaType.items?.allOf[0]?.properties ||
+              schemaType.allOf[0]?.properties;
+        await traverseAttributes(currentAttr, schema, logObject);
+      }
+    } else {
+      throw Error(`[Attribute], Key not found: ${currentAttributeKey} in ${logObject}`);
+    }
+  }
+}
+
+async function validateAttributes(attribute, schemaMap) {
+  for (const example of Object.keys(attribute)) {
+      validateTags(attribute[example].attribute_set,schemaMap,example);
+  }
+  }
 async function getSwaggerYaml(example_set, outputPath) {
   try {
     const schema = await baseYMLFile(example_yaml);
     const baseYAML = await baseYMLFile(base_yaml);
-    const { flows, examples: exampleSets, enum: enums, tags } = schema || [];
+    const { flows, examples: exampleSets, enum: enums, tags,attributes } = schema || [];
     const { paths } = baseYAML;
     let hasTrueResult = false; // Flag variable
     let schemaMap = {};
     
-    //un-comment this function for parsing attributes
-    //  await buildAttribiutes();
+    if (process.argv.includes(BUILD.attributes)) {
+      await buildAttribiutes()
+    }
+
+    if (process.argv.includes(BUILD.error)) {
+      await buildErrorCodes()
+    }
+
+    if (process.argv.includes(BUILD.tlc)) {
+      await buildTlc()
+    }
 
     for (const path in paths) {
       const pathSchema =
         paths[path]?.post?.requestBody?.content?.["application/json"]?.schema;
       schemaMap[path.substring(1)] = pathSchema;
     }
-
+    
     if (!process.argv.includes(SKIP_VALIDATION.flows)) {
       hasTrueResult = await validateFlows(flows, schemaMap);
     }
@@ -248,6 +303,10 @@ async function getSwaggerYaml(example_set, outputPath) {
     }
     if (!process.argv.includes(SKIP_VALIDATION.tags) && !hasTrueResult) {
       hasTrueResult = await validateTags(tags, schemaMap);
+    }
+​
+    if (!process.argv.includes(SKIP_VALIDATION.attributes) && !hasTrueResult) {
+      hasTrueResult = await validateAttributes(attributes, schemaMap);
     }
 
     if (hasTrueResult) return;
@@ -304,11 +363,18 @@ function addEnumTag(base, layer) {
   base["x-flows"] = layer["flows"];
   base["x-examples"] = layer["examples"];
   base["x-attributes"] = layer["attributes"];
+base["x-errorcodes"] = layer["error_codes"];
+  base["x-tlc"] = layer["tlc"];
 }
 
 function GenerateYaml(base, layer, output_yaml) {
   const output = yaml.dump(base);
   fs.writeFileSync(output_yaml, output, "utf8");
+  const baseData = base['x-examples'];
+  for (const examplesKey of Object.keys(baseData)) {
+    let {example_set:exampleSet} = baseData[examplesKey] || {}
+    delete exampleSet.form;
+  }
   const jsonDump = "let build_spec = " + JSON.stringify(base);
   fs.writeFileSync(uiPath, jsonDump, "utf8");
 }
