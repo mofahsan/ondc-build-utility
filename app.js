@@ -1,5 +1,7 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
+const path = require('path');
+
 const $RefParser = require("json-schema-ref-parser");
 const { execSync } = require("child_process");
 const Ajv = require("ajv");
@@ -23,6 +25,10 @@ var uiPath = "../../ui/build.js";
 // const outputPath = `./build.yaml`;
 // const unresolvedFilePath = `https://raw.githubusercontent.com/beckn/protocol-specifications/master/api/transaction/components/index.yaml`
 const tempPath = `./temp.yaml`;
+// add featureui docs
+const markdownFiles = checkMDFiles();
+writeFilenamesToYaml(markdownFiles);
+compareFiles();
 getSwaggerYaml("example_set", outputPath);
 const { buildAttribiutes } = require('./build-attributes.js')
 const { buildErrorCodes } = require('./build-error-code.js')
@@ -81,6 +87,7 @@ async function validateFlows(flows, schemaMap) {
 }
 
 async function validateExamples(exampleSets, schemaMap) {
+
   for (const example of Object.keys(exampleSets)) {
     for (const api of Object.keys(schemaMap)) {
       const exampleList = exampleSets[example].example_set[api]?.examples;
@@ -234,8 +241,8 @@ async function traverseAttributes(currentAttributeValue, schemaForTraversal, log
   for (const currentAttributeKey of Object.keys(currentAttributeValue)) {
     const currentAttr = currentAttributeValue[currentAttributeKey];
     const schemaType = schemaForTraversal[currentAttributeKey];
-    
-    //&& 'type' in currentAttr && 'owner' in currentAttr && 'usage' in currentAttr && 'description' in currentAttr
+
+        //&& 'type' in currentAttr && 'owner' in currentAttr && 'usage' in currentAttr && 'description' in currentAttr
     if ('required' in currentAttr ) {
       continue ;
     }
@@ -378,3 +385,41 @@ function GenerateYaml(base, layer, output_yaml) {
   const jsonDump = "let build_spec = " + JSON.stringify(base);
   fs.writeFileSync(uiPath, jsonDump, "utf8");
 }
+
+function checkMDFiles(){
+  const filePath = './docs';
+  const files = fs.readdirSync(filePath);
+  const markdownFiles=files.filter((file)=>file.endsWith(".md"))
+ return markdownFiles
+}
+
+function readfileWithYaml(){
+    const yamlFilePath = path.join('./docs/', '', 'index.yaml');
+    const yamlData = yaml.load(fs.readFileSync(yamlFilePath, 'utf8'));
+    return yamlData.filenames;
+}
+
+
+function compareFiles () {
+    const mdFiles = checkMDFiles();
+    const yamlFiles = readfileWithYaml();
+  
+    // Check if the arrays are equal
+    const isEqual = JSON.stringify(mdFiles) === JSON.stringify(yamlFiles);
+  
+    if (isEqual) {
+    } else {
+      throw new Error(`Files at docs/index.yaml doesn't exist`);
+    }
+  };
+
+  function writeFilenamesToYaml (filenames) {
+    // Create an array of YAML links
+    const yamlLinks = filenames.map(filename => `${filename}`);
+    const yamlData = { filenames: yamlLinks };
+    const yamlFilePath = path.join('./docs/', 'index.yaml');
+    // Convert the data to YAML format and write it to the file
+    const yamlString = yaml.dump(yamlData);
+    fs.writeFileSync(yamlFilePath, yamlString, 'utf8');
+  };
+    
