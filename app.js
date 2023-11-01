@@ -388,6 +388,7 @@ function GenerateYaml(base, layer, output_yaml) {
 
 function checkMDFiles(){
   const filePath = './docs';
+  if(!fs.existsSync(path.join(filePath)))fs.mkdirSync(filePath) //create docs folder if not exists
   const files = fs.readdirSync(filePath);
   const markdownFiles=files.filter((file)=>file.endsWith(".md"))
  return markdownFiles
