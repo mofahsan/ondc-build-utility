@@ -311,7 +311,7 @@ async function getSwaggerYaml(example_set, outputPath) {
     if (!process.argv.includes(SKIP_VALIDATION.tags) && !hasTrueResult) {
       hasTrueResult = await validateTags(tags, schemaMap);
     }
-​
+
     if (!process.argv.includes(SKIP_VALIDATION.attributes) && !hasTrueResult) {
       hasTrueResult = await validateAttributes(attributes, schemaMap);
     }
